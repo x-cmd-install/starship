@@ -7,13 +7,13 @@ about:
   head: 5e9ee97
   archived: false
   latestVersion: v1.26.0
-  collectedAt: 2026-09-03T22:19:54Z
+  collectedAt: 2026-09-03T22:34:16Z
 timeline:
   created: 2019-04-02
   lastCommit: 2026-09-01
   lastRelease: 2026-06-28
 popularity:
-  star: 59762
+  star: 59763
   watcher: 203
   fork: 2651
   release: 141
