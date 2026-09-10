@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4053668,
       "digest": "sha256:c40b27b11f580411e068f2fa6c1be7830a387c0bc47a94d1d37f32b054c5361d",
-      "download_count": 25941,
+      "download_count": 26318,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:57Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:524a41d5b31f346e8b0a29525da08968320230bcabd989dc4bd9c3be3834c0a4",
-      "download_count": 2527,
+      "download_count": 2536,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:57Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-apple-darwin.tar.gz.sha256"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 5611520,
       "digest": "sha256:5bdff0d5c00bb64185e2b022e12e654fa01266f9413ab73a32ac1a6a6e6bc978",
-      "download_count": 1407,
+      "download_count": 1416,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:57Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-pc-windows-msvc.msi"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:080e041008266050587f24a1e240004603b1de840d623025b6f70c260d23481f",
-      "download_count": 716,
+      "download_count": 722,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:57Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-pc-windows-msvc.msi.sha256"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 4419491,
       "digest": "sha256:52e60a2182aed66af225401d8906b2eb8cd2a08d206c7304d503c2cf44345f77",
-      "download_count": 987,
+      "download_count": 994,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:57Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-pc-windows-msvc.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:594a85d35bfa7eea53e23f31e8aace164939ca26a5df7c368f0cb1b0017c4b2c",
-      "download_count": 760,
+      "download_count": 766,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:57Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-pc-windows-msvc.zip.sha256"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4784551,
       "digest": "sha256:dc30189378d2f2e287384e8a692d3f95ad1df64cf0e8c36aa9201516028aed6b",
-      "download_count": 77017,
+      "download_count": 77657,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-unknown-linux-musl.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:2236e0a914ab3fcb570eb263595d43d27106d6e59fe8299a90ad8cc808741726",
-      "download_count": 3426,
+      "download_count": 3514,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-unknown-linux-musl.tar.gz.sha256"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 4960321,
       "digest": "sha256:c7bd93b1cfb87dd4e531d100b4f87cb77eee9eb2982d9428940bc006db4ab689",
-      "download_count": 867,
+      "download_count": 873,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-arm-unknown-linux-musleabihf.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:41cf455546506de0e6830cc52da8b9b551d68b88f07a35ec817efc4a0e98df96",
-      "download_count": 709,
+      "download_count": 715,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-arm-unknown-linux-musleabihf.tar.gz.sha256"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 5517312,
       "digest": "sha256:60a688b5574f9fd230ecdfbb1f243a2c69825a9d6ae47454a1e8cfbee14136e0",
-      "download_count": 606,
+      "download_count": 608,
       "created_at": "2026-06-28T17:15:57Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-pc-windows-msvc.msi"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:92c319e9689e45dcd2e704383879dc742653067f628a84eaf64551228b62627c",
-      "download_count": 683,
+      "download_count": 689,
       "created_at": "2026-06-28T17:15:58Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-pc-windows-msvc.msi.sha256"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 4333529,
       "digest": "sha256:e26c5a5d577f57ce83b841543926db481c205a46bfab3b0730ada2dab4eecafd",
-      "download_count": 405,
+      "download_count": 409,
       "created_at": "2026-06-28T17:15:58Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-pc-windows-msvc.zip"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:db2bfc62af5a012a7176c92a6c335ed1c3abd00cd810eb6d8f191e13d80bc9f3",
-      "download_count": 746,
+      "download_count": 752,
       "created_at": "2026-06-28T17:15:58Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-pc-windows-msvc.zip.sha256"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 5043473,
       "digest": "sha256:6a19cd68dcfb945bcc60fbe1931b21fdae5277dcb761cba7582beccdcd5468be",
-      "download_count": 562,
+      "download_count": 566,
       "created_at": "2026-06-28T17:15:58Z",
       "updated_at": "2026-06-28T17:15:59Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-unknown-linux-musl.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:cb3fd353b9f0fc7607fa189a6b428f671315516bf5705e58d658e324c706084d",
-      "download_count": 693,
+      "download_count": 699,
       "created_at": "2026-06-28T17:15:58Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-unknown-linux-musl.tar.gz.sha256"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:ed8b74291c0615bb8cde44ffc69083f1a431beba8681486cb7f99fb299cb97e6",
-      "download_count": 697,
+      "download_count": 702,
       "created_at": "2026-06-28T17:15:58Z",
       "updated_at": "2026-06-28T17:15:58Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-riscv64gc-unknown-linux-musl.tar.gz.sha256"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 4375401,
       "digest": "sha256:5548f406a4b6f5695903bdea83f77ce47ec12c8c0e62dabd33122d8f133e4207",
-      "download_count": 2561,
+      "download_count": 2579,
       "created_at": "2026-06-28T17:15:58Z",
       "updated_at": "2026-06-28T17:15:59Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-apple-darwin.tar.gz"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:3c144d170de1baf816f3da2d9b10990e53cc6d9067c400c28e25c78fde62ac25",
-      "download_count": 777,
+      "download_count": 782,
       "created_at": "2026-06-28T17:15:59Z",
       "updated_at": "2026-06-28T17:15:59Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-apple-darwin.tar.gz.sha256"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 5963776,
       "digest": "sha256:c6d66e4455c6b50c207f37dfe5b32ce7b033a401e344ac59ed43d7b451731b7f",
-      "download_count": 37917,
+      "download_count": 38104,
       "created_at": "2026-06-28T17:15:59Z",
       "updated_at": "2026-06-28T17:15:59Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-pc-windows-msvc.msi"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:f916409b916bcd6b50528ddb626a74410ded2b9a967afcfe0dc096e45e6c5ffa",
-      "download_count": 719,
+      "download_count": 724,
       "created_at": "2026-06-28T17:15:59Z",
       "updated_at": "2026-06-28T17:15:59Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-pc-windows-msvc.msi.sha256"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 4758038,
       "digest": "sha256:690021e22f2bf2c57d5867dc0fababe5e55e714c26942bd909ffddb6c5df42f2",
-      "download_count": 23604,
+      "download_count": 23794,
       "created_at": "2026-06-28T17:15:59Z",
       "updated_at": "2026-06-28T17:16:00Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-pc-windows-msvc.zip"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:1aef2570940e992f81d4b5b595ee0e02f3c69cd8c8d8374d37234daa1eeba236",
-      "download_count": 893,
+      "download_count": 900,
       "created_at": "2026-06-28T17:15:59Z",
       "updated_at": "2026-06-28T17:15:59Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-pc-windows-msvc.zip.sha256"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:14b53b940e5b2d295b08f39c51e0a7be4a54cbc2bc1eba22efe9d2f7d56a66d8",
-      "download_count": 692,
+      "download_count": 697,
       "created_at": "2026-06-28T17:15:59Z",
       "updated_at": "2026-06-28T17:16:00Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-freebsd.tar.gz.sha256"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 5115170,
       "digest": "sha256:321f0dd7af8340a5f2e6a8fec6538a04f617486f9ec70d878f91c09cd8deef22",
-      "download_count": 46148,
+      "download_count": 46634,
       "created_at": "2026-06-28T17:15:59Z",
       "updated_at": "2026-06-28T17:16:00Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-gnu.tar.gz"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:3ff9c421be277175d813fc0f8c59d400fb3bf98152467746dfa58a449aff3523",
-      "download_count": 3861,
+      "download_count": 3882,
       "created_at": "2026-06-28T17:16:00Z",
       "updated_at": "2026-06-28T17:16:00Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-gnu.tar.gz.sha256"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 5191063,
       "digest": "sha256:b7c232b0e8249d8e55a40beb79c5c43a7d370f3f9408bd215deb0170daeaadf3",
-      "download_count": 306441,
+      "download_count": 309765,
       "created_at": "2026-06-28T17:16:00Z",
       "updated_at": "2026-06-28T17:16:00Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-musl.tar.gz"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:b5a71ad418ab6e6f36d6d097c54df7b65667bf147e02d753bb072149d4bca7cc",
-      "download_count": 5100,
+      "download_count": 5233,
       "created_at": "2026-06-28T17:16:00Z",
       "updated_at": "2026-06-28T17:16:00Z",
       "browser_download_url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-musl.tar.gz.sha256"
