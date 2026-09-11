@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 59,853 · **Forks**: 2,658 · **Open issues**: 2,711 · **Contributors**: 651
+- **Stars**: 59,862 · **Forks**: 2,660 · **Open issues**: 2,711 · **Contributors**: 651
 
 ## Totals (cumulative)
 
@@ -126,4 +126,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:54:34Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T19:01:17Z._
