@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.26.0"
   latestRelease: "v1.26.0"
   latestPrerelease: "v1.22.0"
-  collectedAt: 2026-09-11T05:54:21Z
+  collectedAt: 2026-09-11T19:00:58Z
 timeline:
   created: 2019-04-02
   lastCommit: 2026-09-09
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-06-28
   lastPrerelease: 2025-01-11
 popularity:
-  star: 59853
+  star: 59862
   watcher: 205
-  fork: 2658
+  fork: 2660
   release: 141
   contributor: 651
   pullRequest: 4150
@@ -90,7 +90,7 @@ total:
   commit: 4396
 ---
 path: /home/runner/.x-repo/github.com/starship/starship
-collectedAt: 2026-09-11T05:54:27Z
+collectedAt: 2026-09-11T19:01:07Z
 loc:
   Rust:
     code: 44586
