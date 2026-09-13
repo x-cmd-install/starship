@@ -1,42 +1,75 @@
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.22.1
+  origversion: 1.22.1-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - eriol@debian.org
+    - ncts@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.22.1
+  origversion: 1.22.1-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - eriol@debian.org
+    - ncts@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: alpine_3_23
+  subrepo: community
+  srcname: starship
+  binname: starship-zsh-completion
+  visiblename: starship-zsh-completion
+  version: 1.24.2
+  origversion: 1.24.2-r0
+  status: outdated
+  summary: Zsh completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: archpower_powerpc64le
   srcname: starship
   binname: starship
   visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: newest
+  version: 1.24.2
+  origversion: 1.24.2-2
+  status: outdated
   summary: The cross-shell prompt for astronauts
   licenses:
     - ISC
-- repo: homebrew
-  srcname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: null
-  status: newest
-  summary: Cross-shell prompt for astronauts
-- repo: homebrew
-  srcname: starship
-  visiblename: starship
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Cross-shell prompt for astronauts
 - repo: chocolatey
-  binname: starship.portable
+  binname: starship.install
   visiblename: Starship
   version: 1.26.0
   origversion: null
   status: newest
   summary: The cross-shell prompt for astronauts
-- repo: chromebrew
-  srcname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: null
-  status: newest
-  summary: Cross-shell prompt for astronauts
+- repo: aur
+  srcname: starship-git
+  binname: starship-git
+  visiblename: starship-git
+  version: 1.23.0.3901.gfe184e648
+  origversion: 1.23.0.3901.gfe184e648-1
+  status: rolling
+  summary: The cross-shell prompt for astronauts
+  maintainers:
+    - wcasanova@aur
   licenses:
     - ISC
 - repo: aerynos
@@ -48,195 +81,204 @@
   summary: The minimal, blazing-fast, and infinitely customizable prompt for any shell!
   licenses:
     - ISC
-- repo: crates_io
+- repo: artix
+  subrepo: galaxy
   srcname: starship
+  binname: starship
   visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0-1
+  status: newest
+  summary: The cross-shell prompt for astronauts
+  licenses:
+    - ISC
+- repo: parabola
+  subrepo: extra
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0-1
+  status: newest
+  summary: The cross-shell prompt for astronauts
+  licenses:
+    - ISC
+- repo: alpine_3_21
+  subrepo: community
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.20.1
+  origversion: 1.20.1-r0
+  status: outdated
+  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_21
+  subrepo: community
+  srcname: starship
+  binname: starship-bash-completion
+  visiblename: starship-bash-completion
+  version: 1.20.1
+  origversion: 1.20.1-r0
+  status: outdated
+  summary: Bash completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_21
+  subrepo: community
+  srcname: starship
+  binname: starship-fish-completion
+  visiblename: starship-fish-completion
+  version: 1.20.1
+  origversion: 1.20.1-r0
+  status: outdated
+  summary: Fish completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_21
+  subrepo: community
+  srcname: starship
+  binname: starship-zsh-completion
+  visiblename: starship-zsh-completion
+  version: 1.20.1
+  origversion: 1.20.1-r0
+  status: outdated
+  summary: Zsh completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_21
+  subrepo: community
+  srcname: starship
+  binname: starship-zsh-plugin
+  visiblename: starship-zsh-plugin
+  version: 1.20.1
+  origversion: 1.20.1-r0
+  status: outdated
+  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell (Zsh plugin)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_22
+  subrepo: community
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.22.1
+  origversion: 1.22.1-r0
+  status: outdated
+  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_22
+  subrepo: community
+  srcname: starship
+  binname: starship-bash-completion
+  visiblename: starship-bash-completion
+  version: 1.22.1
+  origversion: 1.22.1-r0
+  status: outdated
+  summary: Bash completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_22
+  subrepo: community
+  srcname: starship
+  binname: starship-fish-completion
+  visiblename: starship-fish-completion
+  version: 1.22.1
+  origversion: 1.22.1-r0
+  status: outdated
+  summary: Fish completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_22
+  subrepo: community
+  srcname: starship
+  binname: starship-zsh-completion
+  visiblename: starship-zsh-completion
+  version: 1.22.1
+  origversion: 1.22.1-r0
+  status: outdated
+  summary: Zsh completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_22
+  subrepo: community
+  srcname: starship
+  binname: starship-zsh-plugin
+  visiblename: starship-zsh-plugin
+  version: 1.22.1
+  origversion: 1.22.1-r0
+  status: outdated
+  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell (Zsh plugin)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_23
+  subrepo: community
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.24.2
+  origversion: 1.24.2-r0
+  status: outdated
+  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_23
+  subrepo: community
+  srcname: starship
+  binname: starship-bash-completion
+  visiblename: starship-bash-completion
+  version: 1.24.2
+  origversion: 1.24.2-r0
+  status: outdated
+  summary: Bash completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: alpine_3_23
+  subrepo: community
+  srcname: starship
+  binname: starship-fish-completion
+  visiblename: starship-fish-completion
+  version: 1.24.2
+  origversion: 1.24.2-r0
+  status: outdated
+  summary: Fish completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+- repo: chocolatey
+  binname: starship.portable
+  visiblename: Starship
   version: 1.26.0
   origversion: null
   status: newest
-  summary: "The minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-- repo: alpine_3_21
-  subrepo: community
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.20.1
-  origversion: 1.20.1-r0
-  status: outdated
-  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_21
-  subrepo: community
-  srcname: starship
-  binname: starship-bash-completion
-  visiblename: starship-bash-completion
-  version: 1.20.1
-  origversion: 1.20.1-r0
-  status: outdated
-  summary: Bash completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_21
-  subrepo: community
-  srcname: starship
-  binname: starship-fish-completion
-  visiblename: starship-fish-completion
-  version: 1.20.1
-  origversion: 1.20.1-r0
-  status: outdated
-  summary: Fish completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_21
-  subrepo: community
-  srcname: starship
-  binname: starship-zsh-completion
-  visiblename: starship-zsh-completion
-  version: 1.20.1
-  origversion: 1.20.1-r0
-  status: outdated
-  summary: Zsh completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_21
-  subrepo: community
-  srcname: starship
-  binname: starship-zsh-plugin
-  visiblename: starship-zsh-plugin
-  version: 1.20.1
-  origversion: 1.20.1-r0
-  status: outdated
-  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell (Zsh plugin)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_22
-  subrepo: community
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.22.1
-  origversion: 1.22.1-r0
-  status: outdated
-  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_22
-  subrepo: community
-  srcname: starship
-  binname: starship-bash-completion
-  visiblename: starship-bash-completion
-  version: 1.22.1
-  origversion: 1.22.1-r0
-  status: outdated
-  summary: Bash completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_22
-  subrepo: community
-  srcname: starship
-  binname: starship-fish-completion
-  visiblename: starship-fish-completion
-  version: 1.22.1
-  origversion: 1.22.1-r0
-  status: outdated
-  summary: Fish completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_22
-  subrepo: community
-  srcname: starship
-  binname: starship-zsh-completion
-  visiblename: starship-zsh-completion
-  version: 1.22.1
-  origversion: 1.22.1-r0
-  status: outdated
-  summary: Zsh completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_22
-  subrepo: community
-  srcname: starship
-  binname: starship-zsh-plugin
-  visiblename: starship-zsh-plugin
-  version: 1.22.1
-  origversion: 1.22.1-r0
-  status: outdated
-  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell (Zsh plugin)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_23
-  subrepo: community
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.24.2
-  origversion: 1.24.2-r0
-  status: outdated
-  summary: Minimal, blazing-fast and infinitely customizable prompt for any shell
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_23
-  subrepo: community
-  srcname: starship
-  binname: starship-bash-completion
-  visiblename: starship-bash-completion
-  version: 1.24.2
-  origversion: 1.24.2-r0
-  status: outdated
-  summary: Bash completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_23
-  subrepo: community
-  srcname: starship
-  binname: starship-fish-completion
-  visiblename: starship-fish-completion
-  version: 1.24.2
-  origversion: 1.24.2-r0
-  status: outdated
-  summary: Fish completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-- repo: alpine_3_23
-  subrepo: community
-  srcname: starship
-  binname: starship-zsh-completion
-  visiblename: starship-zsh-completion
-  version: 1.24.2
-  origversion: 1.24.2-r0
-  status: outdated
-  summary: Zsh completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
+  summary: The cross-shell prompt for astronauts
 - repo: alpine_3_23
   subrepo: community
   srcname: starship
@@ -396,19 +438,6 @@
     - ISC
   categories:
     - Shells
-- repo: kaos
-  subrepo: apps
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: newest
-  summary: Minimal, blazing-fast, and infinitely customizable prompt for any shell.
-  maintainers:
-    - demm@kaosx.us
-  licenses:
-    - MPL-2.0
 - repo: altsisyphus
   srcname: starship
   binnames:
@@ -455,39 +484,6 @@
   version: 1.24.2
   origversion: 1.24.2-2
   status: outdated
-  summary: The cross-shell prompt for astronauts
-  licenses:
-    - ISC
-- repo: archpower_powerpc64le
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.24.2
-  origversion: 1.24.2-2
-  status: outdated
-  summary: The cross-shell prompt for astronauts
-  licenses:
-    - ISC
-- repo: aur
-  srcname: starship-git
-  binname: starship-git
-  visiblename: starship-git
-  version: 1.23.0.3901.gfe184e648
-  origversion: 1.23.0.3901.gfe184e648-1
-  status: rolling
-  summary: The cross-shell prompt for astronauts
-  maintainers:
-    - wcasanova@aur
-  licenses:
-    - ISC
-- repo: artix
-  subrepo: galaxy
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: newest
   summary: The cross-shell prompt for astronauts
   licenses:
     - ISC
@@ -564,24 +560,22 @@
   origversion: null
   status: newest
   summary: The cross-shell prompt for astronauts
-- repo: chocolatey
-  binname: starship.install
-  visiblename: Starship
+- repo: chromebrew
+  srcname: starship
+  visiblename: starship
   version: 1.26.0
   origversion: null
   status: newest
-  summary: The cross-shell prompt for astronauts
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: newest
-  summary: The cross-shell prompt for astronauts
+  summary: Cross-shell prompt for astronauts
   licenses:
     - ISC
+- repo: crates_io
+  srcname: starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: null
+  status: newest
+  summary: "The minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
 - repo: debian_13
   subrepo: trixie/main
   srcname: starship
@@ -726,6 +720,20 @@
   origversion: null
   status: newest
   summary: Fast and customizable shell prompt
+- repo: homebrew
+  srcname: starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: null
+  status: newest
+  summary: Cross-shell prompt for astronauts
+- repo: homebrew
+  srcname: starship
+  visiblename: starship
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Cross-shell prompt for astronauts
 - repo: kali_rolling
   subrepo: main
   srcname: starship
@@ -742,17 +750,19 @@
     - sylvestre@debian.org
   categories:
     - misc
-- repo: manjaro_testing
-  subrepo: extra
+- repo: kaos
+  subrepo: apps
   srcname: starship
   binname: starship
   visiblename: starship
   version: 1.26.0
   origversion: 1.26.0-1
   status: newest
-  summary: The cross-shell prompt for astronauts
+  summary: Minimal, blazing-fast, and infinitely customizable prompt for any shell.
+  maintainers:
+    - demm@kaosx.us
   licenses:
-    - ISC
+    - MPL-2.0
 - repo: liguros_stable
   srcname: app-shells/starship
   visiblename: app-shells/starship
@@ -849,6 +859,19 @@
     - ZLIB
   categories:
     - app-shells
+- repo: opensuse_shells_tumbleweed
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0-60.7
+  status: newest
+  summary: A customizable prompt for many shells
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
 - repo: liguros_develop
   srcname: app-shells/starship
   visiblename: app-shells/starship
@@ -935,6 +958,39 @@
     - ISC
   categories:
     - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0-1
+  status: newest
+  summary: The cross-shell prompt for astronauts
+  licenses:
+    - ISC
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0-1
+  status: newest
+  summary: The cross-shell prompt for astronauts
+  licenses:
+    - ISC
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0-1
+  status: newest
+  summary: The cross-shell prompt for astronauts
+  licenses:
+    - ISC
 - repo: msys2_clang64
   srcname: mingw-w64-starship
   binname: mingw-w64-clang-x86_64-starship
@@ -1064,19 +1120,6 @@
     - ISC
   categories:
     - Unspecified
-- repo: opensuse_shells_tumbleweed
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-60.7
-  status: newest
-  summary: A customizable prompt for many shells
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
 - repo: pacstall
   srcname: starship-bin
   binname: starship-bin
@@ -1087,49 +1130,6 @@
   summary: The minimal, blazing-fast, and infinitely customizable prompt for any shell
   maintainers:
     - 37895518+charitarthchugh@users.noreply.github.com
-- repo: parabola
-  subrepo: extra
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: newest
-  summary: The cross-shell prompt for astronauts
-  licenses:
-    - ISC
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.22.1
-  origversion: 1.22.1-5
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - eriol@debian.org
-    - ncts@debian.org
-    - sylvestre@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.22.1
-  origversion: 1.22.1-5
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - eriol@debian.org
-    - ncts@debian.org
-    - sylvestre@debian.org
-  categories:
-    - misc
 - repo: pkgsrc_2026_1
   srcname: shells/starship
   binname: starship
@@ -1480,18 +1480,6 @@
     - ISC
   categories:
     - Development/Debug
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+starship-battery-devel
-  visiblename: rust-starship+starship-battery-devel
-  version: 1.26.0
-  origversion: 1.26.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
 - repo: terra_39
   srcname: rust-starship
   binname: starship
@@ -1660,18 +1648,6 @@
     - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship-debugsource
-  visiblename: rust-starship-debugsource
-  version: 1.26.0
-  origversion: 1.26.0-1.fcrawhide
-  status: newest
-  summary: Debug sources for package rust-starship
-  licenses:
-    - ISC
-  categories:
-    - Development/Debug
 - repo: terra_40
   srcname: rust-starship
   binname: starship-debuginfo
@@ -1864,18 +1840,6 @@
     - ISC
   categories:
     - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship-debugsource
-  visiblename: rust-starship-debugsource
-  version: 1.26.0
-  origversion: 1.26.0-1.fcrawhide
-  status: newest
-  summary: Debug sources for package rust-starship
-  licenses:
-    - ISC
-  categories:
-    - Development/Debug
 - repo: terra_41
   srcname: rust-starship
   binname: starship
@@ -2044,6 +2008,42 @@
     - ISC
   categories:
     - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+starship-battery-devel
+  visiblename: rust-starship+starship-battery-devel
+  version: 1.26.0
+  origversion: 1.26.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship-debugsource
+  visiblename: rust-starship-debugsource
+  version: 1.26.0
+  origversion: 1.26.0-1.fcrawhide
+  status: newest
+  summary: Debug sources for package rust-starship
+  licenses:
+    - ISC
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship-debugsource
+  visiblename: rust-starship-debugsource
+  version: 1.26.0
+  origversion: 1.26.0-1.fcrawhide
+  status: newest
+  summary: Debug sources for package rust-starship
+  licenses:
+    - ISC
+  categories:
+    - Development/Debug
 - repo: terra_rawhide
   srcname: rust-starship
   binname: rust-starship-devel
@@ -2239,6 +2239,62 @@
   summary: The cross-shell prompt for astronauts
   maintainers:
     - wonkru-dev@proton.me
+- repo: alpine_3_19
+  subrepo: community
+  srcname: starship
+  binname: starship-bash-completion
+  visiblename: starship-bash-completion
+  version: 1.16.0
+  origversion: 1.16.0-r0
+  status: outdated
+  summary: Bash completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: starship
+  binname: starship-fish-completion
+  visiblename: starship-fish-completion
+  version: 1.16.0
+  origversion: 1.16.0-r0
+  status: outdated
+  summary: Fish completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: starship
+  binname: starship-zsh-completion
+  visiblename: starship-zsh-completion
+  version: 1.16.0
+  origversion: 1.16.0-r0
+  status: outdated
+  summary: Zsh completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: starship
+  binname: starship-bash-completion
+  visiblename: starship-bash-completion
+  version: 1.11.0
+  origversion: 1.11.0-r0
+  status: outdated
+  summary: Bash completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: starship
@@ -2295,20 +2351,6 @@
   licenses:
     - ISC
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: starship
-  binname: starship-bash-completion
-  visiblename: starship-bash-completion
-  version: 1.11.0
-  origversion: 1.11.0-r0
-  status: outdated
-  summary: Bash completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-  vulnerable: true
 - repo: alpine_3_18
   subrepo: community
   srcname: starship
@@ -2388,48 +2430,6 @@
   origversion: 1.16.0-r0
   status: outdated
   summary: Minimal, blazing-fast and infinitely customizable prompt for any shell
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: starship
-  binname: starship-bash-completion
-  visiblename: starship-bash-completion
-  version: 1.16.0
-  origversion: 1.16.0-r0
-  status: outdated
-  summary: Bash completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: starship
-  binname: starship-fish-completion
-  visiblename: starship-fish-completion
-  version: 1.16.0
-  origversion: 1.16.0-r0
-  status: outdated
-  summary: Fish completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: starship
-  binname: starship-zsh-completion
-  visiblename: starship-zsh-completion
-  version: 1.16.0
-  origversion: 1.16.0-r0
-  status: outdated
-  summary: Zsh completions for starship
   maintainers:
     - jakub@jirutka.cz
   licenses:
