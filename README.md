@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.26.0` (2026-06-28)
-- **Last commit**: 2026-09-15
+- **Last commit**: 2026-09-16
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 59,909 · **Forks**: 2,660 · **Open issues**: 2,713 · **Contributors**: 652
+- **Stars**: 59,920 · **Forks**: 2,662 · **Open issues**: 2,714 · **Contributors**: 652
 
 ## Totals (cumulative)
 
-- **Releases**: 141 · **Merged PRs**: 3221 · **Open PRs**: 244 · **Closed issues**: 1909 · **Open issues**: 804 · **Commits**: 4406
+- **Releases**: 141 · **Merged PRs**: 3221 · **Open PRs**: 244 · **Closed issues**: 1909 · **Open issues**: 805 · **Commits**: 4408
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 13 | 22 | 2 | 5 | 32 |
-| last60d | 2026-07-18 | 0 | 45 | 36 | 3 | 18 | 71 |
-| 90d | 2026-06-18 | 1 | 62 | 43 | 13 | 25 | 109 |
-| last180d | 2026-03-20 | 3 | 142 | 71 | 31 | 53 | 242 |
-| 360d | 2025-09-21 | 6 | 260 | 101 | 92 | 100 | 454 |
-| last720d | 2024-09-26 | 11 | 507 | 133 | 209 | 249 | 923 |
+| 30d | 2026-08-18 | 0 | 13 | 22 | 1 | 6 | 34 |
+| last60d | 2026-07-19 | 0 | 44 | 34 | 3 | 18 | 73 |
+| 90d | 2026-06-19 | 1 | 62 | 43 | 13 | 26 | 111 |
+| last180d | 2026-03-21 | 3 | 142 | 71 | 31 | 53 | 244 |
+| 360d | 2025-09-22 | 6 | 259 | 101 | 92 | 101 | 456 |
+| last720d | 2024-09-27 | 11 | 507 | 133 | 209 | 250 | 922 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:19:57Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:38:19Z._
