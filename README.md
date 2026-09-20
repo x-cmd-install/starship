@@ -4,7 +4,7 @@
 
 ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
-![starship](https://repo.x-cmd.io/starship.svg)
+[![x-cmd/install — starship Code Quality Monitoring Repo Card](https://repo.x-cmd.io/starship.svg)](https://x-cmd.com/install/starship)
 
 ## Install
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.26.0` (2026-06-28)
-- **Last commit**: 2026-09-16
+- **Last commit**: 2026-09-19
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 59,938 · **Forks**: 2,664 · **Open issues**: 2,714 · **Contributors**: 652
+- **Stars**: 59,956 · **Forks**: 2,666 · **Open issues**: 2,714 · **Contributors**: 652
 
 ## Totals (cumulative)
 
-- **Releases**: 141 · **Merged PRs**: 3221 · **Open PRs**: 244 · **Closed issues**: 1909 · **Open issues**: 805 · **Commits**: 4408
+- **Releases**: 141 · **Merged PRs**: 3222 · **Open PRs**: 244 · **Closed issues**: 1909 · **Open issues**: 805 · **Commits**: 4409
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 13 | 20 | 1 | 6 | 34 |
-| last60d | 2026-07-20 | 0 | 44 | 34 | 2 | 17 | 73 |
-| 90d | 2026-06-20 | 1 | 62 | 43 | 12 | 25 | 111 |
-| last180d | 2026-03-22 | 3 | 140 | 70 | 31 | 53 | 244 |
-| 360d | 2025-09-23 | 6 | 258 | 101 | 90 | 101 | 456 |
-| last720d | 2024-09-28 | 11 | 507 | 133 | 209 | 250 | 922 |
+| 30d | 2026-08-21 | 0 | 14 | 18 | 0 | 6 | 30 |
+| last60d | 2026-07-22 | 0 | 43 | 34 | 2 | 16 | 60 |
+| 90d | 2026-06-22 | 1 | 60 | 44 | 12 | 25 | 96 |
+| last180d | 2026-03-24 | 3 | 136 | 68 | 30 | 53 | 234 |
+| 360d | 2025-09-25 | 6 | 256 | 100 | 90 | 100 | 456 |
+| last720d | 2024-09-30 | 11 | 507 | 133 | 209 | 248 | 919 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:10:16Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:08:31Z._
