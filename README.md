@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 59,967 · **Forks**: 2,670 · **Open issues**: 2,715 · **Contributors**: 652
+- **Stars**: 59,984 · **Forks**: 2,673 · **Open issues**: 2,714 · **Contributors**: 652
 
 ## Totals (cumulative)
 
-- **Releases**: 141 · **Merged PRs**: 3223 · **Open PRs**: 247 · **Closed issues**: 1909 · **Open issues**: 806 · **Commits**: 4411
+- **Releases**: 141 · **Merged PRs**: 3224 · **Open PRs**: 250 · **Closed issues**: 1909 · **Open issues**: 805 · **Commits**: 4412
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 14 | 20 | 0 | 7 | 32 |
-| last60d | 2026-07-23 | 0 | 43 | 37 | 2 | 17 | 62 |
-| 90d | 2026-06-23 | 1 | 61 | 47 | 12 | 26 | 98 |
-| last180d | 2026-03-25 | 3 | 133 | 71 | 30 | 53 | 236 |
-| 360d | 2025-09-26 | 6 | 255 | 103 | 90 | 101 | 458 |
-| last720d | 2024-10-01 | 11 | 508 | 136 | 209 | 249 | 921 |
+| 30d | 2026-08-23 | 0 | 15 | 23 | 0 | 7 | 33 |
+| last60d | 2026-07-24 | 0 | 43 | 40 | 2 | 16 | 63 |
+| 90d | 2026-06-24 | 1 | 62 | 50 | 11 | 26 | 99 |
+| last180d | 2026-03-26 | 3 | 132 | 74 | 28 | 52 | 237 |
+| 360d | 2025-09-27 | 6 | 256 | 106 | 89 | 101 | 459 |
+| last720d | 2024-10-02 | 11 | 509 | 139 | 208 | 248 | 920 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T06:17:25Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T06:14:47Z._
