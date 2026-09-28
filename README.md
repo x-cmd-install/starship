@@ -14,11 +14,11 @@ x install starship
 
 ## Code insight
 
-Total: **51,191** lines of code across **285** files in the top 5 languages.
+Total: **51,279** lines of code across **285** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 45,171 | 1,107 | 6,209 | 257 |
+| Rust | 45,259 | 1,116 | 6,219 | 257 |
 | Json | 2,574 | 0 | 0 | 3 |
 | Toml | 2,097 | 32 | 552 | 16 |
 | Sh | 644 | 82 | 129 | 5 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.26.0` (2026-06-28)
-- **Last commit**: 2026-09-25
+- **Last commit**: 2026-09-27
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 60,052 · **Forks**: 2,677 · **Open issues**: 2,718 · **Contributors**: 652
+- **Stars**: 60,073 · **Forks**: 2,679 · **Open issues**: 2,720 · **Contributors**: 654
 
 ## Totals (cumulative)
 
-- **Releases**: 141 · **Merged PRs**: 3226 · **Open PRs**: 251 · **Closed issues**: 1913 · **Open issues**: 805 · **Commits**: 4416
+- **Releases**: 141 · **Merged PRs**: 3229 · **Open PRs**: 250 · **Closed issues**: 1918 · **Open issues**: 802 · **Commits**: 4419
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 0 | 12 | 23 | 0 | 8 | 37 |
-| last60d | 2026-07-29 | 0 | 37 | 39 | 3 | 14 | 67 |
-| 90d | 2026-06-29 | 0 | 62 | 51 | 10 | 23 | 103 |
-| last180d | 2026-03-31 | 3 | 133 | 75 | 26 | 49 | 241 |
-| 360d | 2025-10-02 | 6 | 256 | 106 | 87 | 97 | 463 |
-| last720d | 2024-10-07 | 11 | 508 | 140 | 208 | 246 | 919 |
+| 30d | 2026-08-29 | 0 | 14 | 18 | 1 | 9 | 31 |
+| last60d | 2026-07-30 | 0 | 38 | 39 | 4 | 15 | 66 |
+| 90d | 2026-06-30 | 0 | 65 | 50 | 11 | 24 | 99 |
+| last180d | 2026-04-01 | 3 | 135 | 74 | 27 | 50 | 226 |
+| 360d | 2025-10-03 | 6 | 259 | 105 | 88 | 98 | 466 |
+| last720d | 2024-10-08 | 11 | 510 | 139 | 210 | 245 | 919 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:15:09Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:23:25Z._
