@@ -30,7 +30,7 @@ Overall score: **5.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 8/26 approved changesets -- score normalized to 3
+- **Code-Review** (3/10) — Found 9/27 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 60,082 · **Forks**: 2,679 · **Open issues**: 2,720 · **Contributors**: 654
+- **Stars**: 60,097 · **Forks**: 2,680 · **Open issues**: 2,720 · **Contributors**: 654
 
 ## Totals (cumulative)
 
-- **Releases**: 141 · **Merged PRs**: 3229 · **Open PRs**: 251 · **Closed issues**: 1918 · **Open issues**: 802 · **Commits**: 4419
+- **Releases**: 141 · **Merged PRs**: 3229 · **Open PRs**: 253 · **Closed issues**: 1918 · **Open issues**: 802 · **Commits**: 4419
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 14 | 19 | 1 | 9 | 31 |
-| last60d | 2026-07-31 | 0 | 36 | 39 | 4 | 14 | 66 |
-| 90d | 2026-07-01 | 0 | 65 | 51 | 11 | 23 | 99 |
-| last180d | 2026-04-02 | 3 | 135 | 74 | 27 | 50 | 226 |
-| 360d | 2025-10-04 | 6 | 259 | 106 | 88 | 97 | 466 |
-| last720d | 2024-10-09 | 11 | 510 | 140 | 210 | 245 | 917 |
+| 30d | 2026-08-31 | 0 | 13 | 20 | 1 | 8 | 31 |
+| last60d | 2026-08-01 | 0 | 36 | 40 | 4 | 13 | 66 |
+| 90d | 2026-07-02 | 0 | 65 | 52 | 11 | 23 | 99 |
+| last180d | 2026-04-03 | 3 | 134 | 76 | 27 | 50 | 226 |
+| 360d | 2025-10-05 | 6 | 257 | 107 | 88 | 97 | 466 |
+| last720d | 2024-10-10 | 11 | 507 | 142 | 208 | 245 | 917 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:52:05Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:33:59Z._
