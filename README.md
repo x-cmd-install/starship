@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.26.0` (2026-06-28)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-10-01
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 60,107 · **Forks**: 2,682 · **Open issues**: 2,720 · **Contributors**: 654
+- **Stars**: 60,114 · **Forks**: 2,685 · **Open issues**: 2,720 · **Contributors**: 654
 
 ## Totals (cumulative)
 
-- **Releases**: 141 · **Merged PRs**: 3229 · **Open PRs**: 254 · **Closed issues**: 1918 · **Open issues**: 802 · **Commits**: 4419
+- **Releases**: 141 · **Merged PRs**: 3229 · **Open PRs**: 256 · **Closed issues**: 1918 · **Open issues**: 802 · **Commits**: 4421
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-01 | 0 | 13 | 21 | 0 | 8 | 31 |
-| last60d | 2026-08-02 | 0 | 35 | 41 | 4 | 13 | 66 |
-| 90d | 2026-07-03 | 0 | 61 | 52 | 11 | 23 | 99 |
-| last180d | 2026-04-04 | 3 | 133 | 77 | 27 | 50 | 226 |
-| 360d | 2025-10-06 | 6 | 257 | 108 | 88 | 96 | 466 |
-| last720d | 2024-10-11 | 11 | 506 | 143 | 208 | 244 | 917 |
+| 30d | 2026-09-02 | 0 | 12 | 23 | 0 | 8 | 0 |
+| last60d | 2026-08-03 | 0 | 33 | 42 | 4 | 13 | 0 |
+| 90d | 2026-07-04 | 0 | 60 | 54 | 11 | 23 | 0 |
+| last180d | 2026-04-05 | 3 | 132 | 79 | 27 | 50 | 0 |
+| 360d | 2025-10-07 | 6 | 257 | 110 | 88 | 96 | 0 |
+| last720d | 2024-10-12 | 11 | 505 | 145 | 207 | 244 | 919 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261001.yml` · 2026-10-01T06:57:21Z._
+_Snapshot: `data/card/261002.yml` · 2026-10-02T06:34:15Z._
