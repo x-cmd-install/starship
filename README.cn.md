@@ -26,11 +26,11 @@ x install starship
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.6 / 10**
+总评分: **5.5 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 9/27 approved changesets -- score normalized to 3
+- **Code-Review** (2/10) — Found 7/25 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,22 +48,22 @@ x install starship
 
 ## 流行度
 
-- **Star**: 60,164 · **Fork**: 2,697 · **开放 issue**: 2,721 · **贡献者**: 654
+- **Star**: 60,175 · **Fork**: 2,697 · **开放 issue**: 2,723 · **贡献者**: 654
 
 ## 累计统计
 
-- **发布数**: 141 · **已合并 PR**: 3232 · **开放 PR**: 254 · **已关闭 issue**: 1919 · **开放 issue**: 802 · **提交数**: 4425
+- **发布数**: 141 · **已合并 PR**: 3232 · **开放 PR**: 256 · **已关闭 issue**: 1919 · **开放 issue**: 804 · **提交数**: 4425
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 13 | 24 | 1 | 8 | 29 |
-| last60d | 2026-08-07 | 0 | 34 | 38 | 5 | 12 | 63 |
-| 90d | 2026-07-08 | 0 | 58 | 51 | 10 | 23 | 100 |
-| last180d | 2026-04-09 | 3 | 133 | 77 | 28 | 49 | 220 |
-| 360d | 2025-10-11 | 6 | 259 | 108 | 87 | 93 | 472 |
-| last720d | 2024-10-16 | 11 | 505 | 143 | 204 | 244 | 914 |
+| 30d | 2026-09-07 | 0 | 12 | 26 | 1 | 10 | 29 |
+| last60d | 2026-08-08 | 0 | 33 | 40 | 5 | 14 | 63 |
+| 90d | 2026-07-09 | 0 | 58 | 53 | 9 | 24 | 100 |
+| last180d | 2026-04-10 | 3 | 132 | 79 | 26 | 51 | 220 |
+| 360d | 2025-10-12 | 6 | 259 | 110 | 86 | 95 | 472 |
+| last720d | 2024-10-17 | 11 | 505 | 145 | 204 | 246 | 914 |
 
 ## Release 资产
 
@@ -109,4 +109,4 @@ starship 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261006.yml` · 2026-10-06T07:30:21Z._
+_数据快照: `data/card/261007.yml` · 2026-10-07T07:13:46Z._

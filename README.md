@@ -26,11 +26,11 @@ Total: **51,278** lines of code across **285** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.6 / 10**
+Overall score: **5.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 9/27 approved changesets -- score normalized to 3
+- **Code-Review** (2/10) — Found 7/25 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 60,164 · **Forks**: 2,697 · **Open issues**: 2,721 · **Contributors**: 654
+- **Stars**: 60,175 · **Forks**: 2,697 · **Open issues**: 2,723 · **Contributors**: 654
 
 ## Totals (cumulative)
 
-- **Releases**: 141 · **Merged PRs**: 3232 · **Open PRs**: 254 · **Closed issues**: 1919 · **Open issues**: 802 · **Commits**: 4425
+- **Releases**: 141 · **Merged PRs**: 3232 · **Open PRs**: 256 · **Closed issues**: 1919 · **Open issues**: 804 · **Commits**: 4425
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 13 | 24 | 1 | 8 | 29 |
-| last60d | 2026-08-07 | 0 | 34 | 38 | 5 | 12 | 63 |
-| 90d | 2026-07-08 | 0 | 58 | 51 | 10 | 23 | 100 |
-| last180d | 2026-04-09 | 3 | 133 | 77 | 28 | 49 | 220 |
-| 360d | 2025-10-11 | 6 | 259 | 108 | 87 | 93 | 472 |
-| last720d | 2024-10-16 | 11 | 505 | 143 | 204 | 244 | 914 |
+| 30d | 2026-09-07 | 0 | 12 | 26 | 1 | 10 | 29 |
+| last60d | 2026-08-08 | 0 | 33 | 40 | 5 | 14 | 63 |
+| 90d | 2026-07-09 | 0 | 58 | 53 | 9 | 24 | 100 |
+| last180d | 2026-04-10 | 3 | 132 | 79 | 26 | 51 | 220 |
+| 360d | 2025-10-12 | 6 | 259 | 110 | 86 | 95 | 472 |
+| last720d | 2024-10-17 | 11 | 505 | 145 | 204 | 246 | 914 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:30:20Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:13:45Z._
