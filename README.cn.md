@@ -26,11 +26,11 @@ x install starship
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.5 / 10**
+总评分: **5.4 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 7/25 approved changesets -- score normalized to 2
+- **Code-Review** (1/10) — Found 5/27 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,27 +43,27 @@ x install starship
 ## 发布
 
 - **最新版本**: `v1.26.0` (2026-06-28)
-- **最近提交**: 2026-10-12
+- **最近提交**: 2026-10-13
 - **Release 含资产**: 30 个
 
 ## 流行度
 
-- **Star**: 60,241 · **Fork**: 2,701 · **开放 issue**: 2,725 · **贡献者**: 655
+- **Star**: 60,252 · **Fork**: 2,700 · **开放 issue**: 2,725 · **贡献者**: 655
 
 ## 累计统计
 
-- **发布数**: 141 · **已合并 PR**: 3240 · **开放 PR**: 253 · **已关闭 issue**: 1919 · **开放 issue**: 806 · **提交数**: 4436
+- **发布数**: 141 · **已合并 PR**: 3241 · **开放 PR**: 253 · **已关闭 issue**: 1919 · **开放 issue**: 806 · **提交数**: 4438
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 17 | 23 | 1 | 9 | 28 |
-| last60d | 2026-08-14 | 0 | 33 | 37 | 5 | 15 | 62 |
-| 90d | 2026-07-15 | 0 | 64 | 49 | 7 | 25 | 102 |
-| last180d | 2026-04-16 | 3 | 134 | 76 | 25 | 51 | 217 |
-| 360d | 2025-10-18 | 6 | 267 | 108 | 86 | 95 | 456 |
-| last720d | 2024-10-23 | 9 | 504 | 142 | 197 | 244 | 912 |
+| 30d | 2026-09-14 | 0 | 17 | 23 | 1 | 9 | 30 |
+| last60d | 2026-08-15 | 0 | 33 | 36 | 5 | 15 | 64 |
+| 90d | 2026-07-16 | 0 | 65 | 48 | 6 | 25 | 104 |
+| last180d | 2026-04-17 | 3 | 135 | 76 | 24 | 51 | 219 |
+| 360d | 2025-10-19 | 6 | 268 | 108 | 86 | 95 | 458 |
+| last720d | 2024-10-24 | 9 | 501 | 141 | 197 | 244 | 914 |
 
 ## Release 资产
 
@@ -109,4 +109,4 @@ starship 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261013.yml` · 2026-10-13T07:56:07Z._
+_数据快照: `data/card/261014.yml` · 2026-10-14T05:55:40Z._

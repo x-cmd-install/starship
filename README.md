@@ -26,11 +26,11 @@ Total: **51,278** lines of code across **285** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.5 / 10**
+Overall score: **5.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 7/25 approved changesets -- score normalized to 2
+- **Code-Review** (1/10) — Found 5/27 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.26.0` (2026-06-28)
-- **Last commit**: 2026-10-12
+- **Last commit**: 2026-10-13
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 60,241 · **Forks**: 2,701 · **Open issues**: 2,725 · **Contributors**: 655
+- **Stars**: 60,252 · **Forks**: 2,700 · **Open issues**: 2,725 · **Contributors**: 655
 
 ## Totals (cumulative)
 
-- **Releases**: 141 · **Merged PRs**: 3240 · **Open PRs**: 253 · **Closed issues**: 1919 · **Open issues**: 806 · **Commits**: 4436
+- **Releases**: 141 · **Merged PRs**: 3241 · **Open PRs**: 253 · **Closed issues**: 1919 · **Open issues**: 806 · **Commits**: 4438
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 17 | 23 | 1 | 9 | 28 |
-| last60d | 2026-08-14 | 0 | 33 | 37 | 5 | 15 | 62 |
-| 90d | 2026-07-15 | 0 | 64 | 49 | 7 | 25 | 102 |
-| last180d | 2026-04-16 | 3 | 134 | 76 | 25 | 51 | 217 |
-| 360d | 2025-10-18 | 6 | 267 | 108 | 86 | 95 | 456 |
-| last720d | 2024-10-23 | 9 | 504 | 142 | 197 | 244 | 912 |
+| 30d | 2026-09-14 | 0 | 17 | 23 | 1 | 9 | 30 |
+| last60d | 2026-08-15 | 0 | 33 | 36 | 5 | 15 | 64 |
+| 90d | 2026-07-16 | 0 | 65 | 48 | 6 | 25 | 104 |
+| last180d | 2026-04-17 | 3 | 135 | 76 | 24 | 51 | 219 |
+| 360d | 2025-10-19 | 6 | 268 | 108 | 86 | 95 | 458 |
+| last720d | 2024-10-24 | 9 | 501 | 141 | 197 | 244 | 914 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:56:06Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:55:40Z._
