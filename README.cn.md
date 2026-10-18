@@ -14,13 +14,13 @@ x install starship
 
 ## 代码洞察
 
-合计: **51,752** 行代码（覆盖前 5 种语言、共 **285** 个文件）。
+合计: **52,052** 行代码（覆盖前 5 种语言、共 **285** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 45,649 | 1,120 | 6,261 | 257 |
+| Rust | 45,943 | 1,124 | 6,305 | 257 |
 | Json | 2,574 | 0 | 0 | 3 |
-| Toml | 2,180 | 32 | 555 | 16 |
+| Toml | 2,184 | 33 | 555 | 16 |
 | Sh | 644 | 82 | 129 | 5 |
 | PowerShell | 273 | 56 | 52 | 4 |
 
@@ -42,63 +42,63 @@ x install starship
 
 ## 发布
 
-- **最新版本**: `v1.26.0` (2026-06-28)
+- **最新版本**: `v1.27.0` (2026-10-17)
 - **最近提交**: 2026-10-17
 - **Release 含资产**: 30 个
 
 ## 流行度
 
-- **Star**: 60,293 · **Fork**: 2,705 · **开放 issue**: 2,727 · **贡献者**: 662
+- **Star**: 60,315 · **Fork**: 2,706 · **开放 issue**: 2,727 · **贡献者**: 663
 
 ## 累计统计
 
-- **发布数**: 141 · **已合并 PR**: 3253 · **开放 PR**: 244 · **已关闭 issue**: 1925 · **开放 issue**: 802 · **提交数**: 4451
+- **发布数**: 142 · **已合并 PR**: 3257 · **开放 PR**: 242 · **已关闭 issue**: 1927 · **开放 issue**: 800 · **提交数**: 4457
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 0 | 24 | 18 | 1 | 8 | 43 |
-| last60d | 2026-08-18 | 0 | 42 | 29 | 5 | 12 | 77 |
-| 90d | 2026-07-19 | 0 | 74 | 40 | 9 | 22 | 117 |
-| last180d | 2026-04-20 | 2 | 142 | 67 | 27 | 48 | 232 |
-| 360d | 2025-10-22 | 6 | 269 | 99 | 90 | 91 | 471 |
-| last720d | 2024-10-27 | 9 | 513 | 132 | 201 | 241 | 922 |
+| 30d | 2026-09-18 | 1 | 24 | 18 | 2 | 7 | 49 |
+| last60d | 2026-08-19 | 1 | 43 | 28 | 6 | 11 | 83 |
+| 90d | 2026-07-20 | 1 | 76 | 40 | 9 | 20 | 123 |
+| last180d | 2026-04-21 | 3 | 145 | 65 | 28 | 46 | 238 |
+| 360d | 2025-10-23 | 7 | 272 | 97 | 91 | 89 | 477 |
+| last720d | 2024-10-28 | 10 | 515 | 130 | 202 | 239 | 928 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [starship-aarch64-apple-darwin.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-apple-darwin.tar.gz) | 3.9 MiB | `native/darwin/arm64` |
-| [starship-aarch64-apple-darwin.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-apple-darwin.tar.gz.sha256) | 65 B | `native/darwin/arm64` |
-| [starship-aarch64-pc-windows-msvc.msi](https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-pc-windows-msvc.msi) | 5.4 MiB | `native/win/arm64` |
-| [starship-aarch64-pc-windows-msvc.msi.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-pc-windows-msvc.msi.sha256) | 65 B | `native/win/arm64` |
-| [starship-aarch64-pc-windows-msvc.zip](https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-pc-windows-msvc.zip) | 4.2 MiB | `native/win/arm64` |
-| [starship-aarch64-pc-windows-msvc.zip.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-pc-windows-msvc.zip.sha256) | 65 B | `native/win/arm64` |
-| [starship-aarch64-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-unknown-linux-musl.tar.gz) | 4.6 MiB | `native/linux/arm64/musl` |
-| [starship-aarch64-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/arm64/musl` |
-| [starship-arm-unknown-linux-musleabihf.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-arm-unknown-linux-musleabihf.tar.gz) | 4.7 MiB | `native/linux/arm/musl` |
-| [starship-arm-unknown-linux-musleabihf.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-arm-unknown-linux-musleabihf.tar.gz.sha256) | 65 B | `native/linux/arm/musl` |
-| [starship-i686-pc-windows-msvc.msi](https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-pc-windows-msvc.msi) | 5.3 MiB | `native/win/x64` |
-| [starship-i686-pc-windows-msvc.msi.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-pc-windows-msvc.msi.sha256) | 65 B | `native/win/x64` |
-| [starship-i686-pc-windows-msvc.zip](https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-pc-windows-msvc.zip) | 4.1 MiB | `native/win/x64` |
-| [starship-i686-pc-windows-msvc.zip.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-pc-windows-msvc.zip.sha256) | 65 B | `native/win/x64` |
-| [starship-i686-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-unknown-linux-musl.tar.gz) | 4.8 MiB | `native/linux/x86/musl` |
-| [starship-i686-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-i686-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/x86/musl` |
-| [starship-riscv64gc-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-riscv64gc-unknown-linux-musl.tar.gz) | 4.9 MiB | `native/linux/riscv64/musl` |
-| [starship-riscv64gc-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-riscv64gc-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/riscv64/musl` |
-| [starship-x86_64-apple-darwin.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-apple-darwin.tar.gz) | 4.2 MiB | `native/darwin/x64` |
-| [starship-x86_64-apple-darwin.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-apple-darwin.tar.gz.sha256) | 65 B | `native/darwin/x64` |
-| [starship-x86_64-pc-windows-msvc.msi](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-pc-windows-msvc.msi) | 5.7 MiB | `native/win/x64` |
-| [starship-x86_64-pc-windows-msvc.msi.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-pc-windows-msvc.msi.sha256) | 65 B | `native/win/x64` |
-| [starship-x86_64-pc-windows-msvc.zip](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-pc-windows-msvc.zip) | 4.5 MiB | `native/win/x64` |
-| [starship-x86_64-pc-windows-msvc.zip.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-pc-windows-msvc.zip.sha256) | 65 B | `native/win/x64` |
-| [starship-x86_64-unknown-freebsd.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-freebsd.tar.gz) | 4.8 MiB | `native/linux/x64` |
-| [starship-x86_64-unknown-freebsd.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-freebsd.tar.gz.sha256) | 65 B | `other` |
-| [starship-x86_64-unknown-linux-gnu.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-gnu.tar.gz) | 4.9 MiB | `native/linux/x64/glibc` |
-| [starship-x86_64-unknown-linux-gnu.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-gnu.tar.gz.sha256) | 65 B | `native/linux/x64/glibc` |
-| [starship-x86_64-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-musl.tar.gz) | 5.0 MiB | `native/linux/x64/musl` |
-| [starship-x86_64-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/x64/musl` |
+| [starship-aarch64-apple-darwin.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-apple-darwin.tar.gz) | 3.9 MiB | `native/darwin/arm64` |
+| [starship-aarch64-apple-darwin.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-apple-darwin.tar.gz.sha256) | 65 B | `native/darwin/arm64` |
+| [starship-aarch64-pc-windows-msvc.msi](https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-pc-windows-msvc.msi) | 5.4 MiB | `native/win/arm64` |
+| [starship-aarch64-pc-windows-msvc.msi.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-pc-windows-msvc.msi.sha256) | 65 B | `native/win/arm64` |
+| [starship-aarch64-pc-windows-msvc.zip](https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-pc-windows-msvc.zip) | 4.2 MiB | `native/win/arm64` |
+| [starship-aarch64-pc-windows-msvc.zip.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-pc-windows-msvc.zip.sha256) | 65 B | `native/win/arm64` |
+| [starship-aarch64-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-unknown-linux-musl.tar.gz) | 4.6 MiB | `native/linux/arm64/musl` |
+| [starship-aarch64-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/arm64/musl` |
+| [starship-arm-unknown-linux-musleabihf.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-arm-unknown-linux-musleabihf.tar.gz) | 4.7 MiB | `native/linux/arm/musl` |
+| [starship-arm-unknown-linux-musleabihf.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-arm-unknown-linux-musleabihf.tar.gz.sha256) | 65 B | `native/linux/arm/musl` |
+| [starship-i686-pc-windows-msvc.msi](https://github.com/starship/starship/releases/download/v1.27.0/starship-i686-pc-windows-msvc.msi) | 5.3 MiB | `native/win/x64` |
+| [starship-i686-pc-windows-msvc.msi.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-i686-pc-windows-msvc.msi.sha256) | 65 B | `native/win/x64` |
+| [starship-i686-pc-windows-msvc.zip](https://github.com/starship/starship/releases/download/v1.27.0/starship-i686-pc-windows-msvc.zip) | 4.2 MiB | `native/win/x64` |
+| [starship-i686-pc-windows-msvc.zip.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-i686-pc-windows-msvc.zip.sha256) | 65 B | `native/win/x64` |
+| [starship-i686-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-i686-unknown-linux-musl.tar.gz) | 4.8 MiB | `native/linux/x86/musl` |
+| [starship-i686-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-i686-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/x86/musl` |
+| [starship-riscv64gc-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-riscv64gc-unknown-linux-musl.tar.gz) | 4.8 MiB | `native/linux/riscv64/musl` |
+| [starship-riscv64gc-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-riscv64gc-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/riscv64/musl` |
+| [starship-x86_64-apple-darwin.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-apple-darwin.tar.gz) | 4.2 MiB | `native/darwin/x64` |
+| [starship-x86_64-apple-darwin.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-apple-darwin.tar.gz.sha256) | 65 B | `native/darwin/x64` |
+| [starship-x86_64-pc-windows-msvc.msi](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-pc-windows-msvc.msi) | 5.7 MiB | `native/win/x64` |
+| [starship-x86_64-pc-windows-msvc.msi.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-pc-windows-msvc.msi.sha256) | 65 B | `native/win/x64` |
+| [starship-x86_64-pc-windows-msvc.zip](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-pc-windows-msvc.zip) | 4.6 MiB | `native/win/x64` |
+| [starship-x86_64-pc-windows-msvc.zip.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-pc-windows-msvc.zip.sha256) | 65 B | `native/win/x64` |
+| [starship-x86_64-unknown-freebsd.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-freebsd.tar.gz) | 4.9 MiB | `native/linux/x64` |
+| [starship-x86_64-unknown-freebsd.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-freebsd.tar.gz.sha256) | 65 B | `other` |
+| [starship-x86_64-unknown-linux-gnu.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-gnu.tar.gz) | 4.9 MiB | `native/linux/x64/glibc` |
+| [starship-x86_64-unknown-linux-gnu.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-gnu.tar.gz.sha256) | 65 B | `native/linux/x64/glibc` |
+| [starship-x86_64-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz) | 5.0 MiB | `native/linux/x64/musl` |
+| [starship-x86_64-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/x64/musl` |
 
 ## 改进这些数据
 
@@ -109,4 +109,4 @@ starship 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261017.yml` · 2026-10-17T05:23:38Z._
+_数据快照: `data/card/261018.yml` · 2026-10-18T05:40:47Z._
