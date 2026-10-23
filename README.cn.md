@@ -14,11 +14,11 @@ x install starship
 
 ## 代码洞察
 
-合计: **52,052** 行代码（覆盖前 5 种语言、共 **285** 个文件）。
+合计: **52,057** 行代码（覆盖前 5 种语言、共 **285** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 45,943 | 1,124 | 6,305 | 257 |
+| Rust | 45,948 | 1,124 | 6,305 | 257 |
 | Json | 2,574 | 0 | 0 | 3 |
 | Toml | 2,184 | 33 | 555 | 16 |
 | Sh | 644 | 82 | 129 | 5 |
@@ -43,27 +43,27 @@ x install starship
 ## 发布
 
 - **最新版本**: `v1.27.0` (2026-10-17)
-- **最近提交**: 2026-10-20
+- **最近提交**: 2026-10-22
 - **Release 含资产**: 30 个
 
 ## 流行度
 
-- **Star**: 60,386 · **Fork**: 2,736 · **开放 issue**: 2,730 · **贡献者**: 663
+- **Star**: 60,401 · **Fork**: 2,711 · **开放 issue**: 2,730 · **贡献者**: 664
 
 ## 累计统计
 
-- **发布数**: 142 · **已合并 PR**: 3258 · **开放 PR**: 257 · **已关闭 issue**: 1929 · **开放 issue**: 801 · **提交数**: 4458
+- **发布数**: 142 · **已合并 PR**: 3262 · **开放 PR**: 251 · **已关闭 issue**: 1929 · **开放 issue**: 801 · **提交数**: 4462
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 22 | 30 | 3 | 8 | 43 |
-| last60d | 2026-08-23 | 1 | 43 | 41 | 6 | 13 | 80 |
-| 90d | 2026-07-24 | 1 | 72 | 55 | 10 | 20 | 116 |
-| last180d | 2026-04-25 | 3 | 142 | 79 | 28 | 46 | 231 |
-| 360d | 2025-10-27 | 6 | 267 | 110 | 89 | 89 | 463 |
-| last720d | 2024-11-01 | 10 | 514 | 145 | 202 | 238 | 924 |
+| 30d | 2026-09-23 | 1 | 25 | 23 | 3 | 8 | 47 |
+| last60d | 2026-08-24 | 1 | 46 | 35 | 6 | 13 | 84 |
+| 90d | 2026-07-25 | 1 | 75 | 49 | 10 | 20 | 120 |
+| last180d | 2026-04-26 | 3 | 145 | 72 | 28 | 46 | 235 |
+| 360d | 2025-10-28 | 6 | 267 | 104 | 88 | 89 | 467 |
+| last720d | 2024-11-02 | 10 | 517 | 139 | 201 | 238 | 928 |
 
 ## Release 资产
 
@@ -100,6 +100,23 @@ x install starship
 | [starship-x86_64-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz) | 5.0 MiB | `native/linux/x64/musl` |
 | [starship-x86_64-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/x64/musl` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/starship) 上共有 **193** 个发行版报告此项目。**44** 个 ✅ 已是最新上游版本，**129** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.26.0` | 🪦 legacy |
+| Debian 14 | `1.26.0` | ⚠️ outdated |
+| Debian 13 | `1.22.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.22.1` | ⚠️ outdated |
+| Arch | `1.27.0` | ✅ latest |
+| Homebrew | `1.27.0` | ✅ latest |
+| Nix unstable | `1.27.0` | ✅ latest |
+| Void | `1.26.0` | ⚠️ outdated |
+| Alpine edge | `1.24.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.26.0` | ⚠️ outdated |
+
 ## 改进这些数据
 
 starship 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `starship` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -109,4 +126,4 @@ starship 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:40:15Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:56:45Z._

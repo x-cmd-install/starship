@@ -14,11 +14,11 @@ x install starship
 
 ## Code insight
 
-Total: **52,052** lines of code across **285** files in the top 5 languages.
+Total: **52,057** lines of code across **285** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 45,943 | 1,124 | 6,305 | 257 |
+| Rust | 45,948 | 1,124 | 6,305 | 257 |
 | Json | 2,574 | 0 | 0 | 3 |
 | Toml | 2,184 | 33 | 555 | 16 |
 | Sh | 644 | 82 | 129 | 5 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.27.0` (2026-10-17)
-- **Last commit**: 2026-10-20
+- **Last commit**: 2026-10-22
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 60,386 · **Forks**: 2,736 · **Open issues**: 2,730 · **Contributors**: 663
+- **Stars**: 60,401 · **Forks**: 2,711 · **Open issues**: 2,730 · **Contributors**: 664
 
 ## Totals (cumulative)
 
-- **Releases**: 142 · **Merged PRs**: 3258 · **Open PRs**: 257 · **Closed issues**: 1929 · **Open issues**: 801 · **Commits**: 4458
+- **Releases**: 142 · **Merged PRs**: 3262 · **Open PRs**: 251 · **Closed issues**: 1929 · **Open issues**: 801 · **Commits**: 4462
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 22 | 30 | 3 | 8 | 43 |
-| last60d | 2026-08-23 | 1 | 43 | 41 | 6 | 13 | 80 |
-| 90d | 2026-07-24 | 1 | 72 | 55 | 10 | 20 | 116 |
-| last180d | 2026-04-25 | 3 | 142 | 79 | 28 | 46 | 231 |
-| 360d | 2025-10-27 | 6 | 267 | 110 | 89 | 89 | 463 |
-| last720d | 2024-11-01 | 10 | 514 | 145 | 202 | 238 | 924 |
+| 30d | 2026-09-23 | 1 | 25 | 23 | 3 | 8 | 47 |
+| last60d | 2026-08-24 | 1 | 46 | 35 | 6 | 13 | 84 |
+| 90d | 2026-07-25 | 1 | 75 | 49 | 10 | 20 | 120 |
+| last180d | 2026-04-26 | 3 | 145 | 72 | 28 | 46 | 235 |
+| 360d | 2025-10-28 | 6 | 267 | 104 | 88 | 89 | 467 |
+| last720d | 2024-11-02 | 10 | 517 | 139 | 201 | 238 | 928 |
 
 ## Release assets
 
@@ -100,6 +100,23 @@ Lowest-scoring checks:
 | [starship-x86_64-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz) | 5.0 MiB | `native/linux/x64/musl` |
 | [starship-x86_64-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **193** distros on [repology.org](https://repology.org/project/starship). **44** are ✅ on the latest upstream release, **129** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.26.0` | 🪦 legacy |
+| Debian 14 | `1.26.0` | ⚠️ outdated |
+| Debian 13 | `1.22.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.22.1` | ⚠️ outdated |
+| Arch | `1.27.0` | ✅ latest |
+| Homebrew | `1.27.0` | ✅ latest |
+| Nix unstable | `1.27.0` | ✅ latest |
+| Void | `1.26.0` | ⚠️ outdated |
+| Alpine edge | `1.24.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.26.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for starship lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `starship` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -109,4 +126,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:40:14Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:56:44Z._
