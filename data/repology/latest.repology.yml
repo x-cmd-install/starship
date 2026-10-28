@@ -1,3 +1,570 @@
+- repo: terra_40
+  srcname: rust-starship
+  binname: starship-debuginfo
+  visiblename: starship-debuginfo
+  version: 1.23.0
+  origversion: 1.23.0-1.fc40
+  status: outdated
+  summary: Debug information for package starship
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-starship
+  binname: rust-starship+gix-faster-devel
+  visiblename: rust-starship+gix-faster-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fc40
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-starship
+  binname: rust-starship+gix-features-devel
+  visiblename: rust-starship+gix-features-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fc40
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-starship
+  binname: rust-starship+gix-max-perf-devel
+  visiblename: rust-starship+gix-max-perf-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fc40
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-starship
+  binname: rust-starship+libz-ng-sys-devel
+  visiblename: rust-starship+libz-ng-sys-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fc40
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+battery-devel
+  visiblename: rust-starship+battery-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+config-schema-devel
+  visiblename: rust-starship+config-schema-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+default-devel
+  visiblename: rust-starship+default-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+notify-devel
+  visiblename: rust-starship+notify-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+schemars-devel
+  visiblename: rust-starship+schemars-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+starship-battery-devel
+  visiblename: rust-starship+starship-battery-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship-debugsource
+  visiblename: rust-starship-debugsource
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: Debug sources for package rust-starship
+  licenses:
+    - ISC
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship-debugsource
+  visiblename: rust-starship-debugsource
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: Debug sources for package rust-starship
+  licenses:
+    - ISC
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship-devel
+  visiblename: rust-starship-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: starship
+  visiblename: starship
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: starship
+  visiblename: starship
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: starship-debuginfo
+  visiblename: starship-debuginfo
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: Debug information for package starship
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-starship
+  binname: starship-debuginfo
+  visiblename: starship-debuginfo
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: Debug information for package starship
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+gix-faster-devel
+  visiblename: rust-starship+gix-faster-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fc41
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+gix-features-devel
+  visiblename: rust-starship+gix-features-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fc41
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+gix-max-perf-devel
+  visiblename: rust-starship+gix-max-perf-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fc41
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+libz-ng-sys-devel
+  visiblename: rust-starship+libz-ng-sys-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fc41
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+battery-devel
+  visiblename: rust-starship+battery-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+config-schema-devel
+  visiblename: rust-starship+config-schema-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+default-devel
+  visiblename: rust-starship+default-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+notify-devel
+  visiblename: rust-starship+notify-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+notify-rust-devel
+  visiblename: rust-starship+notify-rust-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+schemars-devel
+  visiblename: rust-starship+schemars-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+starship-battery-devel
+  visiblename: rust-starship+starship-battery-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship-debugsource
+  visiblename: rust-starship-debugsource
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: Debug sources for package rust-starship
+  licenses:
+    - ISC
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship-debugsource
+  visiblename: rust-starship-debugsource
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: Debug sources for package rust-starship
+  licenses:
+    - ISC
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship-devel
+  visiblename: rust-starship-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: starship
+  visiblename: starship
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: starship
+  visiblename: starship
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: starship-debuginfo
+  visiblename: starship-debuginfo
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: Debug information for package starship
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: starship-debuginfo
+  visiblename: starship-debuginfo
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: Debug information for package starship
+  licenses:
+    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+gix-faster-devel
+  visiblename: rust-starship+gix-faster-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fcrawhide
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+gix-features-devel
+  visiblename: rust-starship+gix-features-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fcrawhide
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+gix-max-perf-devel
+  visiblename: rust-starship+gix-max-perf-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fcrawhide
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+libz-ng-sys-devel
+  visiblename: rust-starship+libz-ng-sys-devel
+  version: 1.22.1
+  origversion: 1.22.1-1.fcrawhide
+  status: legacy
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.22.1
+  origversion: 1.22.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - eriol@debian.org
+    - ncts@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.22.1
+  origversion: 1.22.1-6
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - eriol@debian.org
+    - ncts@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.22.1
+  origversion: 1.22.1-9ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - eriol@debian.org
+    - ncts@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - eriol@debian.org
+    - ncts@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0_1
+  status: outdated
+  summary: Minimal, fast and customizable cross-shell prompt
+  maintainers:
+    - cinerea0@protonmail.com
+  licenses:
+    - ISC
+- repo: vylen
+  subrepo: community
+  srcname: starship
+  visiblename: starship
+  version: 1.27.0
+  origversion: 1.27.0-1
+  status: newest
+  summary: The cross-shell prompt for astronauts
+  maintainers:
+    - wonkru-dev@proton.me
 - repo: aerynos
   srcname: starship
   visiblename: starship
@@ -924,9 +1491,9 @@
   srcname: sysutils/starship
   binname: starship
   visiblename: sysutils/starship
-  version: 1.26.0
+  version: 1.27.0
   origversion: null
-  status: outdated
+  status: newest
   summary: minimal customizable cross-shell prompt
   maintainers:
     - chilledfrogs@disroot.org
@@ -983,7 +1550,7 @@
   licenses:
     - ISC
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: starship
   binnames:
     - starship
@@ -999,7 +1566,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: starship
   binnames:
     - starship
@@ -1392,30 +1959,6 @@
     - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+battery-devel
-  visiblename: rust-starship+battery-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship-devel
-  visiblename: rust-starship-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
 - repo: terra_39
   srcname: rust-starship
   binname: starship-debuginfo
@@ -1572,124 +2115,6 @@
     - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
-- repo: terra_40
-  srcname: rust-starship
-  binname: starship-debuginfo
-  visiblename: starship-debuginfo
-  version: 1.23.0
-  origversion: 1.23.0-1.fc40
-  status: outdated
-  summary: Debug information for package starship
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_40
-  srcname: rust-starship
-  binname: starship-debuginfo
-  visiblename: starship-debuginfo
-  version: 1.23.0
-  origversion: 1.23.0-1.fc40
-  status: outdated
-  summary: Debug information for package starship
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_40
-  srcname: rust-starship
-  binname: rust-starship+gix-faster-devel
-  visiblename: rust-starship+gix-faster-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fc40
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: rust-starship
-  binname: rust-starship+gix-features-devel
-  visiblename: rust-starship+gix-features-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fc40
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: rust-starship
-  binname: rust-starship+gix-max-perf-devel
-  visiblename: rust-starship+gix-max-perf-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fc40
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: rust-starship
-  binname: rust-starship+libz-ng-sys-devel
-  visiblename: rust-starship+libz-ng-sys-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fc40
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: vylen
-  subrepo: community
-  srcname: starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: 1.27.0-1
-  status: newest
-  summary: The cross-shell prompt for astronauts
-  maintainers:
-    - wonkru-dev@proton.me
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+config-schema-devel
-  visiblename: rust-starship+config-schema-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+default-devel
-  visiblename: rust-starship+default-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+notify-devel
-  visiblename: rust-starship+notify-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
 - repo: terra_41
   srcname: rust-starship
   binname: rust-starship+notify-rust-devel
@@ -1702,443 +2127,18 @@
     - ISC
   categories:
     - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+schemars-devel
-  visiblename: rust-starship+schemars-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+starship-battery-devel
-  visiblename: rust-starship+starship-battery-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship-debugsource
-  visiblename: rust-starship-debugsource
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: Debug sources for package rust-starship
-  licenses:
-    - ISC
-  categories:
-    - Development/Debug
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship-debugsource
-  visiblename: rust-starship-debugsource
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: Debug sources for package rust-starship
-  licenses:
-    - ISC
-  categories:
-    - Development/Debug
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship-devel
-  visiblename: rust-starship-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: starship
-  visiblename: starship
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+default-devel
-  visiblename: rust-starship+default-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: starship
-  visiblename: starship
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_41
+- repo: terra_40
   srcname: rust-starship
   binname: starship-debuginfo
   visiblename: starship-debuginfo
   version: 1.23.0
-  origversion: 1.23.0-1.fc41
+  origversion: 1.23.0-1.fc40
   status: outdated
   summary: Debug information for package starship
   licenses:
     - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Development/Debug
-- repo: terra_41
-  srcname: rust-starship
-  binname: starship-debuginfo
-  visiblename: starship-debuginfo
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: Debug information for package starship
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+gix-faster-devel
-  visiblename: rust-starship+gix-faster-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fc41
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+gix-features-devel
-  visiblename: rust-starship+gix-features-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fc41
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+gix-max-perf-devel
-  visiblename: rust-starship+gix-max-perf-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fc41
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+libz-ng-sys-devel
-  visiblename: rust-starship+libz-ng-sys-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fc41
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+battery-devel
-  visiblename: rust-starship+battery-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+config-schema-devel
-  visiblename: rust-starship+config-schema-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+notify-devel
-  visiblename: rust-starship+notify-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+notify-rust-devel
-  visiblename: rust-starship+notify-rust-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+schemars-devel
-  visiblename: rust-starship+schemars-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+starship-battery-devel
-  visiblename: rust-starship+starship-battery-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship-debugsource
-  visiblename: rust-starship-debugsource
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: Debug sources for package rust-starship
-  licenses:
-    - ISC
-  categories:
-    - Development/Debug
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship-debugsource
-  visiblename: rust-starship-debugsource
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: Debug sources for package rust-starship
-  licenses:
-    - ISC
-  categories:
-    - Development/Debug
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0_1
-  status: outdated
-  summary: Minimal, fast and customizable cross-shell prompt
-  maintainers:
-    - cinerea0@protonmail.com
-  licenses:
-    - ISC
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: starship-debuginfo
-  visiblename: starship-debuginfo
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: Debug information for package starship
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: starship-debuginfo
-  visiblename: starship-debuginfo
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: Debug information for package starship
-  licenses:
-    - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+gix-faster-devel
-  visiblename: rust-starship+gix-faster-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fcrawhide
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+gix-features-devel
-  visiblename: rust-starship+gix-features-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fcrawhide
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+gix-max-perf-devel
-  visiblename: rust-starship+gix-max-perf-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fcrawhide
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
-  binname: rust-starship+libz-ng-sys-devel
-  visiblename: rust-starship+libz-ng-sys-devel
-  version: 1.22.1
-  origversion: 1.22.1-1.fcrawhide
-  status: legacy
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.22.1
-  origversion: 1.22.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - eriol@debian.org
-    - ncts@debian.org
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.22.1
-  origversion: 1.22.1-6
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - eriol@debian.org
-    - ncts@debian.org
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.22.1
-  origversion: 1.22.1-9ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - eriol@debian.org
-    - ncts@debian.org
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - eriol@debian.org
-    - ncts@debian.org
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
 - repo: alpine_3_17
   subrepo: community
   srcname: starship
