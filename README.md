@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 60,466 · **Forks**: 2,752 · **Open issues**: 2,731 · **Contributors**: 664
+- **Stars**: 60,479 · **Forks**: 2,772 · **Open issues**: 2,732 · **Contributors**: 664
 
 ## Totals (cumulative)
 
-- **Releases**: 142 · **Merged PRs**: 3272 · **Open PRs**: 251 · **Closed issues**: 1929 · **Open issues**: 802 · **Commits**: 4474
+- **Releases**: 142 · **Merged PRs**: 3272 · **Open PRs**: 253 · **Closed issues**: 1929 · **Open issues**: 803 · **Commits**: 4474
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 1 | 31 | 23 | 2 | 7 | 53 |
-| last60d | 2026-08-28 | 1 | 52 | 34 | 6 | 14 | 86 |
-| 90d | 2026-07-29 | 1 | 78 | 46 | 9 | 20 | 121 |
-| last180d | 2026-04-30 | 3 | 147 | 67 | 28 | 42 | 233 |
-| 360d | 2025-11-01 | 6 | 275 | 101 | 87 | 89 | 470 |
-| last720d | 2024-11-06 | 10 | 523 | 139 | 201 | 239 | 934 |
+| 30d | 2026-09-28 | 1 | 30 | 25 | 2 | 8 | 53 |
+| last60d | 2026-08-29 | 1 | 52 | 36 | 6 | 15 | 86 |
+| 90d | 2026-07-30 | 1 | 77 | 48 | 9 | 21 | 121 |
+| last180d | 2026-05-01 | 2 | 146 | 69 | 27 | 42 | 233 |
+| 360d | 2025-11-02 | 6 | 275 | 103 | 87 | 89 | 470 |
+| last720d | 2024-11-07 | 10 | 523 | 141 | 201 | 238 | 932 |
 
 ## Release assets
 
@@ -102,7 +102,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **193** distros on [repology.org](https://repology.org/project/starship). **50** are ✅ on the latest upstream release, **124** are ⚠️ on an older version.
+Reported by **193** distros on [repology.org](https://repology.org/project/starship). **51** are ✅ on the latest upstream release, **123** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -126,4 +126,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T06:05:28Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:43:47Z._
