@@ -1,19 +1,15 @@
-- repo: chromebrew
-  srcname: starship
+- repo: aosc
+  srcname: app-utils/starship
+  binname: starship
   visiblename: starship
   version: 1.27.0
   origversion: null
   status: newest
-  summary: Cross-shell prompt for astronauts
-  licenses:
-    - ISC
-- repo: crates_io
-  srcname: starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: null
-  status: newest
-  summary: "The minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  summary: Customizable shell prompt
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: aerynos
   srcname: starship
   visiblename: starship
@@ -75,16 +71,6 @@
     - jakub@jirutka.cz
   licenses:
     - ISC
-- repo: starkos
-  subrepo: extra
-  srcname: starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: 1.27.0-1
-  status: newest
-  summary: The cross-shell prompt for astronauts
-  maintainers:
-    - starkos@disroot.org
 - repo: alpine_3_21
   subrepo: community
   srcname: starship
@@ -358,13 +344,6 @@
     - jakub@jirutka.cz
   licenses:
     - ISC
-- repo: chocolatey
-  binname: starship.portable
-  visiblename: Starship
-  version: 1.27.0
-  origversion: null
-  status: newest
-  summary: The cross-shell prompt for astronauts
 - repo: alt_p11
   srcname: starship
   binnames:
@@ -397,18 +376,6 @@
     - ISC
   categories:
     - Shells
-- repo: aosc
-  srcname: app-utils/starship
-  binname: starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: null
-  status: newest
-  summary: Customizable shell prompt
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: arch
   subrepo: extra
   srcname: starship
@@ -523,6 +490,29 @@
   origversion: null
   status: newest
   summary: The cross-shell prompt for astronauts
+- repo: chocolatey
+  binname: starship.portable
+  visiblename: Starship
+  version: 1.27.0
+  origversion: null
+  status: newest
+  summary: The cross-shell prompt for astronauts
+- repo: chromebrew
+  srcname: starship
+  visiblename: starship
+  version: 1.27.0
+  origversion: null
+  status: newest
+  summary: Cross-shell prompt for astronauts
+  licenses:
+    - ISC
+- repo: crates_io
+  srcname: starship
+  visiblename: starship
+  version: 1.27.0
+  origversion: null
+  status: newest
+  summary: "The minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
 - repo: debian_13
   subrepo: trixie/main
   srcname: starship
@@ -687,9 +677,9 @@
   binnames:
     - starship
   visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-4
-  status: outdated
+  version: 1.27.0
+  origversion: 1.27.0-1
+  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - eriol@debian.org
@@ -796,28 +786,6 @@
     - ISC
   categories:
     - sysutils
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: outdated
-  summary: The cross-shell prompt for astronauts
-  licenses:
-    - ISC
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: outdated
-  summary: The cross-shell prompt for astronauts
-  licenses:
-    - ISC
 - repo: manjaro_unstable
   subrepo: extra
   srcname: starship
@@ -917,6 +885,16 @@
     - alpha@sigmasquadron.net
   licenses:
     - ISC
+- repo: termux
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.27.0
+  origversion: null
+  status: newest
+  summary: A minimal, blazing fast, and extremely customizable prompt for any shell
+  maintainers:
+    - tom@termux.dev
 - repo: nix_unstable
   srcname: starship
   visiblename: starship
@@ -993,7 +971,7 @@
   licenses:
     - ISC
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: starship
   binnames:
     - starship
@@ -1009,7 +987,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: starship
   binnames:
     - starship
@@ -1063,9 +1041,9 @@
 - repo: pld
   srcname: starship
   visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-2
-  status: outdated
+  version: 1.27.0
+  origversion: 1.27.0-1
+  status: newest
 - repo: pureos_landing
   subrepo: landing/main
   srcname: starship
@@ -1177,6 +1155,16 @@
     - ebagrenrut@spack
   licenses:
     - ISC
+- repo: starkos
+  subrepo: extra
+  srcname: starship
+  visiblename: starship
+  version: 1.27.0
+  origversion: 1.27.0-1
+  status: newest
+  summary: The cross-shell prompt for astronauts
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: starship
   visiblename: starship
@@ -1190,16 +1178,6 @@
     - ISC
   categories:
     - extra/base
-- repo: termux
-  srcname: starship
-  binname: starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: null
-  status: newest
-  summary: A minimal, blazing fast, and extremely customizable prompt for any shell
-  maintainers:
-    - tom@termux.dev
 - repo: terra_39
   srcname: rust-starship
   binname: rust-starship+battery-devel
@@ -1546,6 +1524,18 @@
   summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
   licenses:
     - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+notify-rust-devel
+  visiblename: rust-starship+notify-rust-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
   categories:
     - Unspecified
 - repo: terra_40
@@ -1660,18 +1650,6 @@
   srcname: rust-starship
   binname: rust-starship+notify-devel
   visiblename: rust-starship+notify-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+notify-rust-devel
-  visiblename: rust-starship+notify-rust-devel
   version: 1.23.0
   origversion: 1.23.0-1.fc41
   status: outdated
@@ -2121,9 +2099,9 @@
   srcname: starship
   binname: starship
   visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0_1
-  status: outdated
+  version: 1.27.0
+  origversion: 1.27.0_1
+  status: newest
   summary: Minimal, fast and customizable cross-shell prompt
   maintainers:
     - cinerea0@protonmail.com
@@ -2139,33 +2117,6 @@
   summary: The cross-shell prompt for astronauts
   maintainers:
     - wonkru-dev@proton.me
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: starship
-  visiblename: starship
-  version: 1.16.0
-  origversion: 1.16.0-bp156.1.42
-  status: outdated
-  summary: A customizable prompt for many shells
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: starship
-  binname: starship-bash-completion
-  visiblename: starship-bash-completion
-  version: 1.11.0
-  origversion: 1.11.0-r0
-  status: outdated
-  summary: Bash completions for starship
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: starship
@@ -2175,6 +2126,20 @@
   origversion: 1.11.0-r0
   status: outdated
   summary: Fish completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: starship
+  binname: starship-bash-completion
+  visiblename: starship-bash-completion
+  version: 1.14.2
+  origversion: 1.14.2-r0
+  status: outdated
+  summary: Bash completions for starship
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -2222,6 +2187,20 @@
   licenses:
     - ISC
   vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: starship
+  binname: starship-bash-completion
+  visiblename: starship-bash-completion
+  version: 1.11.0
+  origversion: 1.11.0-r0
+  status: outdated
+  summary: Bash completions for starship
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - ISC
+  vulnerable: true
 - repo: alpine_3_18
   subrepo: community
   srcname: starship
@@ -2231,20 +2210,6 @@
   origversion: 1.14.2-r0
   status: outdated
   summary: Minimal, blazing-fast and infinitely customizable prompt for any shell
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - ISC
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: starship
-  binname: starship-bash-completion
-  visiblename: starship-bash-completion
-  version: 1.14.2
-  origversion: 1.14.2-r0
-  status: outdated
-  summary: Bash completions for starship
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -2429,6 +2394,30 @@
   summary: Minimal, blazing-fast and infinitely customizable prompt for any shell (Zsh plugin)
   maintainers:
     - jakub@jirutka.cz
+  licenses:
+    - ISC
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.16.0
+  origversion: 1.16.0-1
+  status: outdated
+  summary: The cross-shell prompt for astronauts
+  licenses:
+    - ISC
+  vulnerable: true
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: starship
+  binname: starship
+  visiblename: starship
+  version: 1.16.0
+  origversion: 1.16.0-1
+  status: outdated
+  summary: The cross-shell prompt for astronauts
   licenses:
     - ISC
   vulnerable: true
@@ -2453,6 +2442,19 @@
   visiblename: starship
   version: 1.12.0
   origversion: 1.12.0-bp155.1.10
+  status: outdated
+  summary: A customizable prompt for many shells
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: starship
+  visiblename: starship
+  version: 1.16.0
+  origversion: 1.16.0-bp156.1.42
   status: outdated
   summary: A customizable prompt for many shells
   licenses:
