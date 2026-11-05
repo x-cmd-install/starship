@@ -30,7 +30,7 @@ x install starship
 
 评分最低的几项:
 
-- **Code-Review** (4/10) — Found 13/29 approved changesets -- score normalized to 4
+- **Code-Review** (4/10) — Found 10/25 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,22 +48,22 @@ x install starship
 
 ## 流行度
 
-- **Star**: 60,595 · **Fork**: 2,839 · **开放 issue**: 2,734 · **贡献者**: 664
+- **Star**: 60,610 · **Fork**: 2,835 · **开放 issue**: 2,734 · **贡献者**: 664
 
 ## 累计统计
 
-- **发布数**: 142 · **已合并 PR**: 3276 · **开放 PR**: 259 · **已关闭 issue**: 1931 · **开放 issue**: 803 · **提交数**: 4482
+- **发布数**: 142 · **已合并 PR**: 3276 · **开放 PR**: 260 · **已关闭 issue**: 1931 · **开放 issue**: 803 · **提交数**: 4482
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 29 | 24 | 2 | 10 | 57 |
-| last60d | 2026-09-05 | 1 | 50 | 40 | 5 | 16 | 88 |
-| 90d | 2026-08-06 | 1 | 73 | 50 | 9 | 20 | 120 |
-| last180d | 2026-05-08 | 2 | 143 | 75 | 25 | 39 | 233 |
-| 360d | 2025-11-09 | 6 | 274 | 108 | 82 | 89 | 476 |
-| last720d | 2024-11-14 | 10 | 521 | 145 | 196 | 235 | 932 |
+| 30d | 2026-10-06 | 1 | 29 | 25 | 2 | 9 | 57 |
+| last60d | 2026-09-06 | 1 | 50 | 41 | 5 | 16 | 88 |
+| 90d | 2026-08-07 | 1 | 73 | 51 | 9 | 20 | 120 |
+| last180d | 2026-05-09 | 2 | 143 | 76 | 25 | 39 | 233 |
+| 360d | 2025-11-10 | 6 | 273 | 108 | 79 | 89 | 476 |
+| last720d | 2024-11-15 | 10 | 521 | 145 | 195 | 234 | 930 |
 
 ## Release 资产
 
@@ -102,7 +102,7 @@ x install starship
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/starship) 上共有 **193** 个发行版报告此项目。**55** 个 ✅ 已是最新上游版本，**119** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/starship) 上共有 **193** 个发行版报告此项目。**56** 个 ✅ 已是最新上游版本，**118** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -126,4 +126,4 @@ starship 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T07:40:32Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T07:48:22Z._
