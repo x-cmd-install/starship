@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.27.0` (2026-10-17)
-- **Last commit**: 2026-11-04
+- **Last commit**: 2026-11-06
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 60,616 · **Forks**: 2,836 · **Open issues**: 2,734 · **Contributors**: 664
+- **Stars**: 60,623 · **Forks**: 2,836 · **Open issues**: 2,737 · **Contributors**: 664
 
 ## Totals (cumulative)
 
-- **Releases**: 142 · **Merged PRs**: 3276 · **Open PRs**: 261 · **Closed issues**: 1931 · **Open issues**: 803 · **Commits**: 4482
+- **Releases**: 142 · **Merged PRs**: 3277 · **Open PRs**: 261 · **Closed issues**: 1931 · **Open issues**: 806 · **Commits**: 4484
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 1 | 28 | 25 | 1 | 7 | 57 |
-| last60d | 2026-09-07 | 1 | 49 | 42 | 5 | 16 | 88 |
-| 90d | 2026-08-08 | 1 | 72 | 52 | 9 | 20 | 120 |
-| last180d | 2026-05-10 | 2 | 142 | 77 | 25 | 39 | 233 |
-| 360d | 2025-11-11 | 6 | 273 | 109 | 78 | 89 | 476 |
-| last720d | 2024-11-16 | 10 | 521 | 146 | 195 | 234 | 929 |
+| 30d | 2026-10-08 | 1 | 29 | 25 | 1 | 10 | 59 |
+| last60d | 2026-09-08 | 1 | 49 | 42 | 4 | 19 | 90 |
+| 90d | 2026-08-09 | 1 | 71 | 52 | 9 | 23 | 122 |
+| last180d | 2026-05-11 | 2 | 142 | 77 | 25 | 42 | 235 |
+| 360d | 2025-11-12 | 6 | 274 | 109 | 77 | 92 | 478 |
+| last720d | 2024-11-17 | 10 | 521 | 146 | 194 | 237 | 931 |
 
 ## Release assets
 
@@ -102,7 +102,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **193** distros on [repology.org](https://repology.org/project/starship). **57** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
+Reported by **194** distros on [repology.org](https://repology.org/project/starship). **58** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -111,7 +111,7 @@ Reported by **193** distros on [repology.org](https://repology.org/project/stars
 | Debian 13 | `1.22.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.22.1` | ⚠️ outdated |
 | Arch | `1.27.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.27.0` | ✅ latest |
 | Nix unstable | `1.27.0` | ✅ latest |
 | Void | `1.27.0` | ✅ latest |
 | Alpine edge | `1.24.2` | ⚠️ outdated |
@@ -126,4 +126,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:46:45Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:12:06Z._
