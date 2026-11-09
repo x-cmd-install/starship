@@ -14,12 +14,12 @@ x install starship
 
 ## Code insight
 
-Total: **52,164** lines of code across **285** files in the top 5 languages.
+Total: **52,179** lines of code across **285** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Rust | 46,051 | 1,126 | 6,321 | 257 |
-| Json | 2,574 | 0 | 0 | 3 |
+| Json | 2,589 | 0 | 0 | 3 |
 | Toml | 2,188 | 33 | 555 | 16 |
 | Sh | 644 | 82 | 129 | 5 |
 | PowerShell | 273 | 56 | 52 | 4 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.27.0` (2026-10-17)
-- **Last commit**: 2026-11-08
+- **Last commit**: 2026-11-09
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 60,645 · **Forks**: 2,838 · **Open issues**: 2,737 · **Contributors**: 665
+- **Stars**: 60,660 · **Forks**: 2,841 · **Open issues**: 2,739 · **Contributors**: 665
 
 ## Totals (cumulative)
 
-- **Releases**: 142 · **Merged PRs**: 3279 · **Open PRs**: 260 · **Closed issues**: 1931 · **Open issues**: 806 · **Commits**: 4487
+- **Releases**: 142 · **Merged PRs**: 3282 · **Open PRs**: 260 · **Closed issues**: 1933 · **Open issues**: 806 · **Commits**: 4491
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 1 | 31 | 24 | 1 | 10 | 45 |
-| last60d | 2026-09-09 | 1 | 49 | 41 | 4 | 19 | 81 |
-| 90d | 2026-08-10 | 1 | 69 | 51 | 9 | 23 | 115 |
-| last180d | 2026-05-12 | 2 | 144 | 76 | 25 | 42 | 228 |
-| 360d | 2025-11-13 | 6 | 275 | 108 | 76 | 92 | 468 |
-| last720d | 2024-11-18 | 10 | 521 | 145 | 194 | 237 | 932 |
+| 30d | 2026-10-10 | 1 | 34 | 24 | 2 | 11 | 49 |
+| last60d | 2026-09-10 | 1 | 52 | 41 | 5 | 20 | 85 |
+| 90d | 2026-08-11 | 1 | 71 | 50 | 10 | 23 | 119 |
+| last180d | 2026-05-13 | 2 | 146 | 76 | 26 | 43 | 232 |
+| 360d | 2025-11-14 | 6 | 276 | 108 | 77 | 93 | 472 |
+| last720d | 2024-11-19 | 10 | 524 | 145 | 195 | 238 | 934 |
 
 ## Release assets
 
@@ -102,7 +102,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **194** distros on [repology.org](https://repology.org/project/starship). **58** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
+Reported by **195** distros on [repology.org](https://repology.org/project/starship). **59** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -126,4 +126,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:59:44Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:36:01Z._
