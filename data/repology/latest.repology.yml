@@ -1,3 +1,14 @@
+- repo: chimera
+  subrepo: user
+  srcname: starship
+  binname: starship-nucomp
+  visiblename: starship-nucomp
+  version: 1.25.1
+  origversion: 1.25.1-r0
+  status: outdated
+  summary: Cross-shell prompt (nu completions)
+  licenses:
+    - ISC
 - repo: aerynos
   srcname: starship
   visiblename: starship
@@ -7,18 +18,6 @@
   summary: The minimal, blazing-fast, and infinitely customizable prompt for any shell!
   licenses:
     - ISC
-- repo: openbsd
-  srcname: sysutils/starship
-  binname: starship
-  visiblename: sysutils/starship
-  version: 1.27.0
-  origversion: null
-  status: newest
-  summary: minimal customizable cross-shell prompt
-  maintainers:
-    - chilledfrogs@disroot.org
-  categories:
-    - sysutils
 - repo: alpine_3_21
   subrepo: community
   srcname: starship
@@ -469,17 +468,6 @@
 - repo: chimera
   subrepo: user
   srcname: starship
-  binname: starship-nucomp
-  visiblename: starship-nucomp
-  version: 1.25.1
-  origversion: 1.25.1-r0
-  status: outdated
-  summary: Cross-shell prompt (nu completions)
-  licenses:
-    - ISC
-- repo: chimera
-  subrepo: user
-  srcname: starship
   binname: starship-zshcomp
   visiblename: starship-zshcomp
   version: 1.25.1
@@ -712,19 +700,6 @@
     - demm@kaosx.us
   licenses:
     - MPL-2.0
-- repo: opensuse_shells_tumbleweed
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: 1.27.0-64.2
-  status: newest
-  summary: A customizable prompt for many shells
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
 - repo: liguros_stable
   srcname: app-shells/starship
   visiblename: app-shells/starship
@@ -773,6 +748,22 @@
     - ZLIB
   categories:
     - app-shells
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.22.1
+  origversion: 1.22.1-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - eriol@debian.org
+    - ncts@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
 - repo: liguros_develop
   srcname: app-shells/starship
   visiblename: app-shells/starship
@@ -945,6 +936,18 @@
     - nix@sigmasquadron.net
   licenses:
     - ISC
+- repo: openbsd
+  srcname: sysutils/starship
+  binname: starship
+  visiblename: sysutils/starship
+  version: 1.27.0
+  origversion: null
+  status: newest
+  summary: minimal customizable cross-shell prompt
+  maintainers:
+    - chilledfrogs@disroot.org
+  categories:
+    - sysutils
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: starship
@@ -955,6 +958,19 @@
   visiblename: starship
   version: 1.27.0
   origversion: 1.27.0-1.1
+  status: newest
+  summary: A customizable prompt for many shells
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: opensuse_shells_tumbleweed
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.27.0
+  origversion: 1.27.0-64.2
   status: newest
   summary: A customizable prompt for many shells
   licenses:
@@ -982,22 +998,6 @@
   summary: The cross-shell prompt for astronauts
   licenses:
     - ISC
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.22.1
-  origversion: 1.22.1-5
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - eriol@debian.org
-    - ncts@debian.org
-    - sylvestre@debian.org
-  categories:
-    - misc
 - repo: parrot
   subrepo: parrot/main
   srcname: starship
@@ -1392,6 +1392,18 @@
     - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
+- repo: terra_41
+  srcname: rust-starship
+  binname: rust-starship+battery-devel
+  visiblename: rust-starship+battery-devel
+  version: 1.23.0
+  origversion: 1.23.0-1.fc41
+  status: outdated
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
 - repo: terra_39
   srcname: rust-starship
   binname: starship-debuginfo
@@ -1620,15 +1632,15 @@
     - ISC
   categories:
     - Unspecified
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
+- repo: ubuntu_27_04_proposed
+  subrepo: tenacious-proposed/universe
   srcname: starship
   binnames:
     - starship
   visiblename: starship
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: outdated
+  version: 1.27.0
+  origversion: 1.27.0-1
+  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - eriol@debian.org
@@ -1636,18 +1648,6 @@
     - sylvestre@debian.org
   categories:
     - universe/misc
-- repo: terra_41
-  srcname: rust-starship
-  binname: rust-starship+battery-devel
-  visiblename: rust-starship+battery-devel
-  version: 1.23.0
-  origversion: 1.23.0-1.fc41
-  status: outdated
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
 - repo: terra_41
   srcname: rust-starship
   binname: rust-starship+config-schema-devel
@@ -1766,6 +1766,18 @@
   summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
   licenses:
     - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-starship
+  binname: rust-starship+default-devel
+  visiblename: rust-starship+default-devel
+  version: 1.27.0
+  origversion: 1.27.0-1.fcrawhide
+  status: newest
+  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
+  licenses:
+    - ISC
   categories:
     - Unspecified
 - repo: terra_41
@@ -1878,18 +1890,6 @@
     - Unspecified
 - repo: terra_rawhide
   srcname: rust-starship
-  binname: rust-starship+default-devel
-  visiblename: rust-starship+default-devel
-  version: 1.27.0
-  origversion: 1.27.0-1.fcrawhide
-  status: newest
-  summary: "Minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄\U0001F30C️"
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-starship
   binname: rust-starship+notify-devel
   visiblename: rust-starship+notify-devel
   version: 1.27.0
@@ -1996,6 +1996,22 @@
     - ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR BSL-1.0 OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND ISC AND MIT AND (MIT AND Apache-2.0) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND Unlicense AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: starship
+  binnames:
+    - starship
+  visiblename: starship
+  version: 1.26.0
+  origversion: 1.26.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - eriol@debian.org
+    - ncts@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
 - repo: terra_rawhide
   srcname: rust-starship
   binname: starship-debuginfo
@@ -2125,22 +2141,6 @@
   version: 1.26.0
   origversion: 1.26.0-1
   status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - eriol@debian.org
-    - ncts@debian.org
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
-  srcname: starship
-  binnames:
-    - starship
-  visiblename: starship
-  version: 1.27.0
-  origversion: 1.27.0-1
-  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - eriol@debian.org
@@ -2451,19 +2451,6 @@
   licenses:
     - ISC
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: starship
-  visiblename: starship
-  version: 1.12.0
-  origversion: 1.12.0-bp155.1.10
-  status: outdated
-  summary: A customizable prompt for many shells
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: nix_stable_24_05
   srcname: starship
   visiblename: starship
@@ -2478,6 +2465,19 @@
     - me@slukjanov.name
   licenses:
     - ISC
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: starship
+  visiblename: starship
+  version: 1.12.0
+  origversion: 1.12.0-bp155.1.10
+  status: outdated
+  summary: A customizable prompt for many shells
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: main/oss
