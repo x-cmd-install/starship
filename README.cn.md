@@ -48,22 +48,22 @@ x install starship
 
 ## 流行度
 
-- **Star**: 60,762 · **Fork**: 2,921 · **开放 issue**: 2,743 · **贡献者**: 666
+- **Star**: 60,791 · **Fork**: 2,945 · **开放 issue**: 2,743 · **贡献者**: 666
 
 ## 累计统计
 
-- **发布数**: 142 · **已合并 PR**: 3290 · **开放 PR**: 258 · **已关闭 issue**: 1935 · **开放 issue**: 808 · **提交数**: 4505
+- **发布数**: 142 · **已合并 PR**: 3290 · **开放 PR**: 260 · **已关闭 issue**: 1935 · **开放 issue**: 808 · **提交数**: 4505
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 30 | 23 | 3 | 13 | 46 |
-| last60d | 2026-09-18 | 1 | 55 | 40 | 5 | 20 | 93 |
-| 90d | 2026-08-19 | 1 | 74 | 49 | 9 | 24 | 128 |
-| last180d | 2026-05-21 | 2 | 146 | 71 | 26 | 43 | 236 |
-| 360d | 2025-11-22 | 5 | 277 | 108 | 74 | 92 | 479 |
-| last720d | 2024-11-27 | 10 | 531 | 144 | 193 | 240 | 941 |
+| 30d | 2026-10-20 | 0 | 24 | 23 | 2 | 11 | 46 |
+| last60d | 2026-09-20 | 1 | 55 | 42 | 5 | 20 | 93 |
+| 90d | 2026-08-21 | 1 | 74 | 48 | 8 | 24 | 128 |
+| last180d | 2026-05-23 | 2 | 146 | 72 | 26 | 43 | 236 |
+| 360d | 2025-11-24 | 5 | 274 | 109 | 73 | 92 | 479 |
+| last720d | 2024-11-29 | 10 | 531 | 146 | 193 | 239 | 940 |
 
 ## Release 资产
 
@@ -100,6 +100,23 @@ x install starship
 | [starship-x86_64-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz) | 5.0 MiB | `native/linux/x64/musl` |
 | [starship-x86_64-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/x64/musl` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/starship) 上共有 **196** 个发行版报告此项目。**60** 个 ✅ 已是最新上游版本，**117** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.27.0` | ✅ latest |
+| Debian 14 | `1.27.0` | ✅ latest |
+| Debian 13 | `1.22.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.22.1` | ⚠️ outdated |
+| Arch | `1.27.0` | ✅ latest |
+| Homebrew | `1.27.0` | ✅ latest |
+| Nix unstable | `1.27.0` | ✅ latest |
+| Void | `1.27.0` | ✅ latest |
+| Alpine edge | `1.24.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.27.0` | ✅ latest |
+
 ## 改进这些数据
 
 starship 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `starship` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -109,4 +126,4 @@ starship 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:59:07Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T08:28:53Z._

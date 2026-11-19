@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 60,762 · **Forks**: 2,921 · **Open issues**: 2,743 · **Contributors**: 666
+- **Stars**: 60,791 · **Forks**: 2,945 · **Open issues**: 2,743 · **Contributors**: 666
 
 ## Totals (cumulative)
 
-- **Releases**: 142 · **Merged PRs**: 3290 · **Open PRs**: 258 · **Closed issues**: 1935 · **Open issues**: 808 · **Commits**: 4505
+- **Releases**: 142 · **Merged PRs**: 3290 · **Open PRs**: 260 · **Closed issues**: 1935 · **Open issues**: 808 · **Commits**: 4505
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 30 | 23 | 3 | 13 | 46 |
-| last60d | 2026-09-18 | 1 | 55 | 40 | 5 | 20 | 93 |
-| 90d | 2026-08-19 | 1 | 74 | 49 | 9 | 24 | 128 |
-| last180d | 2026-05-21 | 2 | 146 | 71 | 26 | 43 | 236 |
-| 360d | 2025-11-22 | 5 | 277 | 108 | 74 | 92 | 479 |
-| last720d | 2024-11-27 | 10 | 531 | 144 | 193 | 240 | 941 |
+| 30d | 2026-10-20 | 0 | 24 | 23 | 2 | 11 | 46 |
+| last60d | 2026-09-20 | 1 | 55 | 42 | 5 | 20 | 93 |
+| 90d | 2026-08-21 | 1 | 74 | 48 | 8 | 24 | 128 |
+| last180d | 2026-05-23 | 2 | 146 | 72 | 26 | 43 | 236 |
+| 360d | 2025-11-24 | 5 | 274 | 109 | 73 | 92 | 479 |
+| last720d | 2024-11-29 | 10 | 531 | 146 | 193 | 239 | 940 |
 
 ## Release assets
 
@@ -100,6 +100,23 @@ Lowest-scoring checks:
 | [starship-x86_64-unknown-linux-musl.tar.gz](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz) | 5.0 MiB | `native/linux/x64/musl` |
 | [starship-x86_64-unknown-linux-musl.tar.gz.sha256](https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz.sha256) | 65 B | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **196** distros on [repology.org](https://repology.org/project/starship). **60** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.27.0` | ✅ latest |
+| Debian 14 | `1.27.0` | ✅ latest |
+| Debian 13 | `1.22.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.22.1` | ⚠️ outdated |
+| Arch | `1.27.0` | ✅ latest |
+| Homebrew | `1.27.0` | ✅ latest |
+| Nix unstable | `1.27.0` | ✅ latest |
+| Void | `1.27.0` | ✅ latest |
+| Alpine edge | `1.24.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.27.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for starship lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `starship` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -109,4 +126,4 @@ Install metadata for starship lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:59:06Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:28:53Z._
